@@ -1,0 +1,4 @@
+Invoking command in '/home/udhayan/ugv_ws/build/ORB_SLAM3': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/src/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/ORB_SLAM3
+Invoked command in '/home/udhayan/ugv_ws/build/ORB_SLAM3' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/src/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/ORB_SLAM3
+Invoking command in '/home/udhayan/ugv_ws/build/ORB_SLAM3': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/ORB_SLAM3 -- -j12 -l12
+Invoked command in '/home/udhayan/ugv_ws/build/ORB_SLAM3' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/ORB_SLAM3 -- -j12 -l12

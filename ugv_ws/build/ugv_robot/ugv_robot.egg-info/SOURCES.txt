@@ -1,0 +1,14 @@
+package.xml
+setup.py
+config/gazebo_camera.yaml
+config/ugv_view.rviz
+launch/forest_robot.launch.py
+resource/ugv_robot
+ugv_robot.egg-info/PKG-INFO
+ugv_robot.egg-info/SOURCES.txt
+ugv_robot.egg-info/dependency_links.txt
+ugv_robot.egg-info/entry_points.txt
+ugv_robot.egg-info/requires.txt
+ugv_robot.egg-info/top_level.txt
+ugv_robot.egg-info/zip-safe
+urdf/ugv.urdf.xacro

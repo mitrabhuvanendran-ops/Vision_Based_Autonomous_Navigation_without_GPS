@@ -1,0 +1,1044 @@
+[0.668s] Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[0.821s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.030s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.053s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.133s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.136s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.152s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.211s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.290s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.294s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.712s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.782s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.822s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[1.833s] -- Found tf2_ros: 0.25.23 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.026s] -- Found tf2_geometry_msgs: 0.25.22 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.034s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.037s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.040s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[2.062s] -- Found image_transport: 3.1.13 (/opt/ros/humble/share/image_transport/cmake)
+[2.293s] -- Configuring done
+[2.389s] -- Generating done
+[2.402s] -- Build files have been written to: /home/udhayan/ugv_ws/build/orbslam3_ros2
+[2.470s] [ 33%] Building CXX object CMakeFiles/rgbd.dir/src/image_grabber_rgbd.cpp.o
+[2.470s] [ 33%] Building CXX object CMakeFiles/rgbd.dir/src/orb_slam_rgbd.cpp.o
+[2.489s] Consolidate compiler generated dependencies of target mono
+[2.670s] [ 83%] Built target mono
+[11.732s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[11.732s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[11.733s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[11.733s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.733s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.734s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.734s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[11.735s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[11.735s]       |                                                                          ^~~~~~~~~~
+[11.735s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[11.735s]                  from /usr/include/eigen3/Eigen/LU:11,
+[11.735s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[11.735s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[11.735s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.736s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.737s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.737s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.737s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.737s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[11.737s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[11.737s]       |                                     ^~~~~~~~~~
+[11.769s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[11.769s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[11.769s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[11.769s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.769s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.770s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.771s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[11.771s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[11.771s]       |                                                                                  ^~~~~~~~~~
+[11.771s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[11.771s]                  from /usr/include/eigen3/Eigen/LU:11,
+[11.771s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.772s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.773s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.773s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.773s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.773s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.773s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[11.773s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[11.774s]       |                                     ^~~~~~~~~~
+[11.774s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[11.774s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[11.774s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[11.774s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.774s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.774s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.775s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.775s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.775s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.775s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.775s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.775s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[11.775s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[11.776s]       |                                                                                  ^~~~~~~~~~
+[11.776s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[11.776s]                  from /usr/include/eigen3/Eigen/LU:11,
+[11.776s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[11.776s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[11.776s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[11.776s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[11.777s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[11.778s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[11.778s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[11.778s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[11.778s]       |                                     ^~~~~~~~~~
+[12.475s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.476s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.477s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.477s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.477s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.477s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >’:
+[12.477s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:   required from here
+[12.477s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.477s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[12.478s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[12.478s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.479s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.479s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.480s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.480s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.481s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.481s]       |                                     ^~~~~~~~~~
+[12.523s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[12.523s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.524s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.525s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.525s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.525s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.525s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<6, g2o::SE3Quat>’:
+[12.525s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:   required from here
+[12.526s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.526s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[12.526s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[12.526s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.526s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.526s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.527s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.528s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.528s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.528s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.528s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.528s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.528s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.528s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.529s]       |                                     ^~~~~~~~~~
+[12.573s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.573s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.574s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.574s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.574s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.574s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.574s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.575s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.575s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.575s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.575s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.575s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>’:
+[12.575s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:   required from here
+[12.576s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.576s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[12.576s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.576s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.576s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.576s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.577s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.578s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.578s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.578s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.578s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.578s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.578s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.579s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.579s]       |                                     ^~~~~~~~~~
+[12.579s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.579s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.579s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.579s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.579s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.580s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.581s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.581s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[12.581s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.581s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.581s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.581s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.581s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.582s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.583s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.583s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.583s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.583s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.583s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.583s]       |                                     ^~~~~~~~~~
+[12.695s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.695s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.695s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.696s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.696s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.696s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.696s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.696s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.697s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.697s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.697s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.697s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>’:
+[12.697s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:   required from here
+[12.698s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.698s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[12.698s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.698s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.698s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.698s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.699s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.700s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.700s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.700s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.700s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.700s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.700s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.701s]       |                                     ^~~~~~~~~~
+[12.719s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.719s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.719s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.720s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.720s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.720s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.720s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.720s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.721s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.721s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.721s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.721s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.721s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[12.721s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.722s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.722s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.722s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.722s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.722s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.722s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.723s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.724s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.724s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.724s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.724s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.724s]       |                                     ^~~~~~~~~~
+[12.827s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.827s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.828s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.829s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.829s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.829s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>’:
+[12.829s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:   required from here
+[12.829s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.829s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[12.829s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.830s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.830s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.832s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.832s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.832s]       |                                     ^~~~~~~~~~
+[12.832s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[12.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[12.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[12.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.833s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[12.834s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[12.834s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[12.834s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[12.834s]                  from /usr/include/eigen3/Eigen/LU:11,
+[12.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[12.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[12.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[12.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[12.836s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[12.836s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[12.836s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[12.836s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[12.836s]       |                                     ^~~~~~~~~~
+[13.215s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[13.215s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[13.215s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[13.215s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.215s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.216s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.216s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<7, g2o::Sim3>’:
+[13.217s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:   required from here
+[13.217s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[13.217s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[13.217s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[13.217s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[13.217s]                  from /usr/include/eigen3/Eigen/LU:11,
+[13.217s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.218s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.219s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.219s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.219s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.219s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.219s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[13.219s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[13.219s]       |                                     ^~~~~~~~~~
+[13.274s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[13.274s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.275s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.276s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.276s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.276s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.276s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>’:
+[13.276s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:   required from here
+[13.276s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[13.276s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[13.277s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[13.277s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[13.277s]                  from /usr/include/eigen3/Eigen/LU:11,
+[13.277s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[13.277s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[13.277s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[13.277s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.278s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.279s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[13.279s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[13.279s]       |                                     ^~~~~~~~~~
+[13.279s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[13.279s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[13.279s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[13.279s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.280s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.281s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[13.281s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.281s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[13.281s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[13.281s]                  from /usr/include/eigen3/Eigen/LU:11,
+[13.281s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[13.281s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.282s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.283s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.283s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.283s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.283s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[13.283s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[13.283s]       |                                     ^~~~~~~~~~
+[13.376s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[13.376s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[13.376s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[13.377s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.377s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.377s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.377s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.377s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.378s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.378s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.378s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.378s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>’:
+[13.378s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:   required from here
+[13.379s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[13.379s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[13.379s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[13.379s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[13.379s]                  from /usr/include/eigen3/Eigen/LU:11,
+[13.379s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[13.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[13.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[13.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[13.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.382s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[13.382s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[13.382s]       |                                     ^~~~~~~~~~
+[13.415s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.416s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.417s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[13.417s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[13.417s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[13.418s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[13.418s]                  from /usr/include/eigen3/Eigen/LU:11,
+[13.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[13.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[13.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[13.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[13.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/include/orbslam3_ros2/image_grabber_rgbd.hpp:12,
+[13.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/image_grabber_rgbd.cpp:1:
+[13.420s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[13.420s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[13.420s]       |                                     ^~~~~~~~~~
+[14.830s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[14.830s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[14.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[14.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.831s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.832s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.832s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[14.833s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[14.833s]       |                                                                          ^~~~~~~~~~
+[14.833s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[14.833s]                  from /usr/include/eigen3/Eigen/LU:11,
+[14.833s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[14.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[14.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[14.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[14.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.834s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.835s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.835s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[14.836s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[14.836s]       |                                     ^~~~~~~~~~
+[14.887s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[14.887s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[14.887s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[14.888s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.888s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.888s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.888s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.888s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.889s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.889s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.889s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[14.889s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[14.890s]       |                                                                                  ^~~~~~~~~~
+[14.890s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[14.890s]                  from /usr/include/eigen3/Eigen/LU:11,
+[14.890s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[14.890s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[14.890s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.891s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.892s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.892s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.892s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[14.892s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[14.892s]       |                                     ^~~~~~~~~~
+[14.892s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.893s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.894s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.894s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.894s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.894s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[14.894s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[14.894s]       |                                                                                  ^~~~~~~~~~
+[14.894s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[14.895s]                  from /usr/include/eigen3/Eigen/LU:11,
+[14.895s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[14.895s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[14.895s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[14.895s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[14.895s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[14.896s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[14.897s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[14.897s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[14.897s]       |                                     ^~~~~~~~~~
+[16.016s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[16.016s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.016s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.016s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.017s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.017s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >’:
+[16.018s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:   required from here
+[16.018s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.018s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[16.018s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[16.018s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.018s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.018s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.019s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.020s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.020s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.020s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.020s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.020s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.020s]       |                                     ^~~~~~~~~~
+[16.092s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[16.092s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.092s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.093s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.094s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.094s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<6, g2o::SE3Quat>’:
+[16.094s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:   required from here
+[16.094s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.094s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[16.094s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[16.095s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.095s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.095s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.095s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.095s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.095s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.096s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.097s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.097s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.097s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.097s]       |                                     ^~~~~~~~~~
+[16.173s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.173s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.173s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.173s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.174s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.175s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>’:
+[16.175s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:   required from here
+[16.175s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.175s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[16.175s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.175s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.176s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.176s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.177s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.177s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.177s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.177s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.177s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.177s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.178s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.178s]       |                                     ^~~~~~~~~~
+[16.178s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.178s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.178s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.178s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.179s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.179s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.180s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[16.180s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.180s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.180s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.180s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.180s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.180s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.181s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.182s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.182s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.182s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.182s]       |                                     ^~~~~~~~~~
+[16.380s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.380s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.381s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.382s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.382s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.382s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>’:
+[16.382s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:   required from here
+[16.382s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.382s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[16.383s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.383s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.383s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.383s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.383s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.383s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.383s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.384s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.384s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.385s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.385s]       |                                     ^~~~~~~~~~
+[16.420s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.422s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.422s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.422s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.422s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.422s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[16.423s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.423s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.423s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.423s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.423s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.423s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.424s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.425s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.425s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.425s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.425s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.425s]       |                                     ^~~~~~~~~~
+[16.594s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.594s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.594s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.594s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.595s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.595s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>’:
+[16.595s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:   required from here
+[16.595s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.595s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[16.595s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.596s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.596s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.596s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.596s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.596s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.596s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.596s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.597s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.597s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.597s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.597s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.598s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.598s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.598s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.598s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.598s]       |                                     ^~~~~~~~~~
+[16.599s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[16.599s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[16.599s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[16.599s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.599s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.599s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.600s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.600s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.600s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.600s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.600s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[16.600s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[16.601s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[16.601s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[16.601s]                  from /usr/include/eigen3/Eigen/LU:11,
+[16.601s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[16.601s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[16.601s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[16.602s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[16.603s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[16.603s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[16.603s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[16.603s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[16.603s]       |                                     ^~~~~~~~~~
+[17.194s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.195s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.196s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.196s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.196s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.196s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of ‘class g2o::BaseVertex<7, g2o::Sim3>’:
+[17.196s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:   required from here
+[17.196s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[17.197s]    62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & AlignedBit ? Aligned : Unaligned >  HessianBlockType;
+[17.197s]       |                                                                  ~~~~~~^~~~~~~~~~~~
+[17.197s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[17.197s]                  from /usr/include/eigen3/Eigen/LU:11,
+[17.197s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[17.197s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.198s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.199s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.199s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.199s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.199s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[17.199s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[17.199s]       |                                     ^~~~~~~~~~
+[17.285s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[17.285s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[17.285s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.286s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.287s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>’:
+[17.287s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:   required from here
+[17.287s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[17.287s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[17.287s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[17.287s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[17.288s]                  from /usr/include/eigen3/Eigen/LU:11,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.288s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.289s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.289s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.289s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.289s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.289s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.289s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[17.289s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[17.290s]       |                                     ^~~~~~~~~~
+[17.290s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.290s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.291s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.291s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.291s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.291s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[17.291s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[17.291s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[17.291s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[17.292s]                  from /usr/include/eigen3/Eigen/LU:11,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.292s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.293s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.293s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.293s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.293s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.293s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.293s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[17.293s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[17.293s]       |                                     ^~~~~~~~~~
+[17.417s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[17.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[17.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[17.417s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.418s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.418s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of ‘class g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>’:
+[17.418s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:   required from here
+[17.419s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[17.419s]    59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockType;
+[17.419s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[17.419s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[17.419s]                  from /usr/include/eigen3/Eigen/LU:11,
+[17.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[17.419s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.420s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.421s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.421s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[17.421s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[17.421s]       |                                     ^~~~~~~~~~
+[17.460s] In file included from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.461s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.462s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.462s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.462s] /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80: warning: ‘Eigen::AlignedBit’ is deprecated [-Wdeprecated-declarations]
+[17.462s]    60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & AlignedBit ? Aligned : Unaligned > HessianBlockTransposedType;
+[17.462s]       |                                                                          ~~~~~~^~~~~~~~~~~~
+[17.462s] In file included from /usr/include/eigen3/Eigen/Core:161,
+[17.463s]                  from /usr/include/eigen3/Eigen/LU:11,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29,
+[17.463s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24,
+[17.464s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24,
+[17.464s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23,
+[17.464s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26,
+[17.464s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32,
+[17.464s]                  from /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_rgbd.cpp:8:
+[17.464s] /usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37: note: declared here
+[17.464s]   167 | EIGEN_DEPRECATED const unsigned int AlignedBit = 0x80;
+[17.465s]       |                                     ^~~~~~~~~~
+[38.803s] [100%] Linking CXX executable rgbd
+[42.264s] [100%] Built target rgbd
+[42.308s] Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[42.334s] Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2
+[42.347s] -- Install configuration: ""
+[42.347s] -- Execute custom install script
+[42.348s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/lib/orbslam3_ros2/mono
+[42.349s] -- Symlinking: /home/udhayan/ugv_ws/install/orbslam3_ros2/lib/orbslam3_ros2/rgbd
+[42.366s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/package_run_dependencies/orbslam3_ros2
+[42.367s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/parent_prefix_path/orbslam3_ros2
+[42.367s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.sh
+[42.367s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.dsv
+[42.367s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.sh
+[42.367s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.dsv
+[42.368s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.bash
+[42.368s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.sh
+[42.368s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.zsh
+[42.368s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.dsv
+[42.368s] -- Symlinking: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.dsv
+[42.381s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/packages/orbslam3_ros2
+[42.382s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config.cmake
+[42.382s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config-version.cmake
+[42.382s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.xml
+[42.386s] Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2

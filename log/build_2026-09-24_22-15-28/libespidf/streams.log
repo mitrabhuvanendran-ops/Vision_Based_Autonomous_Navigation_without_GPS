@@ -1,0 +1,25 @@
+[0.022s] Invoking command in '/home/udhayan/build/libespidf': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake /home/udhayan/rtos/target/riscv32imc-esp-espidf/debug/build/esp-idf-sys/644f0a680d3f7265/out -DCMAKE_INSTALL_PREFIX=/home/udhayan/install/libespidf
+[0.080s] CMake Error at CMakeLists.txt:10 (include):
+[0.080s]   include could not find requested file:
+[0.080s] 
+[0.080s]     /tools/cmake/project.cmake
+[0.080s] 
+[0.080s] 
+[0.169s] -- The C compiler identification is GNU 11.4.0
+[0.236s] -- The CXX compiler identification is GNU 11.4.0
+[0.247s] -- Detecting C compiler ABI info
+[0.333s] -- Detecting C compiler ABI info - done
+[0.341s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.342s] -- Detecting C compile features
+[0.342s] -- Detecting C compile features - done
+[0.345s] -- Detecting CXX compiler ABI info
+[0.430s] -- Detecting CXX compiler ABI info - done
+[0.436s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.436s] -- Detecting CXX compile features
+[0.436s] -- Detecting CXX compile features - done
+[0.438s] -- Configuring incomplete, errors occurred!
+[0.438s] See also "/home/udhayan/build/libespidf/CMakeFiles/CMakeOutput.log".
+[0.438s] CMake Error at CMakeLists.txt:44 (idf_build_get_property):
+[0.438s]   Unknown CMake command "idf_build_get_property".
+[0.438s] 
+[0.438s] 

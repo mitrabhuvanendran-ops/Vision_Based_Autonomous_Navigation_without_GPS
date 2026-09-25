@@ -1,0 +1,8 @@
+[console_scripts]
+bisenet_node = ugv_nav.bisenet_node:main
+costmap_builder = ugv_nav.costmap_builder:main
+goal_converter = ugv_nav.goal_converter:main
+path_follower = ugv_nav.path_follower:main
+rrt_planner = ugv_nav.rrt_planner:main
+safety_gate = ugv_nav.safety_gate:main
+

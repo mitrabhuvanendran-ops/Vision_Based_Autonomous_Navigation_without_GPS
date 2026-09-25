@@ -1,0 +1,42 @@
+%YAML:1.0
+# Stage 5.2 - RGBD settings for ORB-SLAM3, matching the sim's actual camera
+# plugin intrinsics (see ugv_robot/config/gazebo_camera.yaml / ugv.urdf.xacro
+# rgb_camera sensor: horizontal_fov=1.3962634 rad @ 640x480).
+
+Camera.type: "PinHole"
+Camera.width: 640
+Camera.height: 480
+Camera.fx: 381.39
+Camera.fy: 381.39
+Camera.cx: 320.0
+Camera.cy: 240.0
+Camera.k1: 0.0
+Camera.k2: 0.0
+Camera.p1: 0.0
+Camera.p2: 0.0
+Camera.k3: 0.0
+Camera.fps: 30.0
+Camera.RGB: 1
+
+# RGB-D specific: the depth image from libgazebo_ros_camera is 32FC1 in
+# metres already, so no rescale is needed.
+DepthMapFactor: 1.0
+Camera.bf: 40.0
+ThDepth: 40.0
+
+ORBextractor.nFeatures: 1200
+ORBextractor.scaleFactor: 1.2
+ORBextractor.nLevels: 8
+ORBextractor.iniThFAST: 20
+ORBextractor.minThFAST: 7
+
+Viewer.KeyFrameSize: 0.05
+Viewer.KeyFrameLineWidth: 1.0
+Viewer.GraphLineWidth: 0.9
+Viewer.PointSize: 2.0
+Viewer.CameraSize: 0.08
+Viewer.CameraLineWidth: 3.0
+Viewer.ViewpointX: 0.0
+Viewer.ViewpointY: -0.7
+Viewer.ViewpointZ: -1.8
+Viewer.ViewpointF: 500.0

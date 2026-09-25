@@ -1,0 +1,24 @@
+[1.882s] Invoking command in '/home/udhayan/ugv_ws/build/ugv_nav': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data
+[2.151s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.152s]   warnings.warn(
+[2.186s] running develop
+[2.332s] running egg_info
+[2.332s] writing ugv_nav.egg-info/PKG-INFO
+[2.332s] writing dependency_links to ugv_nav.egg-info/dependency_links.txt
+[2.333s] writing entry points to ugv_nav.egg-info/entry_points.txt
+[2.333s] writing requirements to ugv_nav.egg-info/requires.txt
+[2.333s] writing top-level names to ugv_nav.egg-info/top_level.txt
+[2.337s] reading manifest file 'ugv_nav.egg-info/SOURCES.txt'
+[2.338s] writing manifest file 'ugv_nav.egg-info/SOURCES.txt'
+[2.338s] running build_ext
+[2.338s] Creating /home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages/ugv-nav.egg-link (link to .)
+[2.339s] Installing bisenet_node script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.340s] Installing costmap_builder script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.340s] Installing goal_converter script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.341s] Installing path_follower script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.341s] Installing rrt_planner script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.341s] Installing safety_gate script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+[2.341s] 
+[2.341s] Installed /home/udhayan/ugv_ws/build/ugv_nav
+[2.341s] running symlink_data
+[2.432s] Invoked command in '/home/udhayan/ugv_ws/build/ugv_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data

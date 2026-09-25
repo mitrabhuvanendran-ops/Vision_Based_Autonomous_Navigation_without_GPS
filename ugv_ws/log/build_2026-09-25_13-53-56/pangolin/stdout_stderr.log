@@ -1,0 +1,1884 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Build type not set (defaults to release)
+-DCMAKE_BUILD_TYPE=Debug for debug
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Performing Test HAS_FLTO
+-- Performing Test HAS_FLTO - Success
+-- Python Found and Enabled (with pybind11)
+-- Eigen Found and Enabled
+-- libdc1394 Found and Enabled
+-- V4L Found and Enabled
+-- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION
+-- Performing Test HAVE_FFMPEG_MAX_ANALYZE_DURATION - Success
+-- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2
+-- Performing Test HAVE_FFMPEG_AVFORMAT_ALLOC_OUTPUT_CONTEXT2 - Success
+-- Performing Test HAVE_FFMPEG_AVPIXELFORMAT
+-- Performing Test HAVE_FFMPEG_AVPIXELFORMAT - Success
+-- ffmpeg Found and Enabled
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+-- OpenNI Found and Enabled
+-- OpenNI2 Found and Enabled
+-- libpng Found and Enabled
+-- libjpeg Found and Enabled
+-- libtiff Found and Enabled
+-- libopenexr Found and Enabled
+-- libzstd Found and Enabled
+-- liblz4 Found and Enabled
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/udhayan/ugv_ws/build/pangolin
+[  1%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/file_extension.cpp.o[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/timer.cpp.o[0m
+[  1%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io.cpp.o[0m
+[  2%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/file_utils.cpp.o[0m
+[  2%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/threadedfilebuf.cpp.o[0m
+[  4%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/uri.cpp.o[0m
+[  4%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_exr.cpp.o[0m
+[  5%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/sigstate.cpp.o[0m
+[  6%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_packed12bit.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_jpg.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_pango.cpp.o[0m
+[  7%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_lz4.cpp.o[0m
+[  8%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_png.cpp.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_ppm.cpp.o[0m
+[  9%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_raw.cpp.o[0m
+[ 10%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_tga.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/pixel_format.cpp.o[0m
+[ 11%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/image/image_io_zstd.cpp.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packet.cpp.o[0m
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/memcpy.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/image.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/managed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/typed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/image/image_io_packed12bit.cpp:4:
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SavePacked12bit(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_packed12bit.cpp:42:10:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SavePacked12bit(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_packed12bit.cpp:43:10:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 16 equals destination size [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/memcpy.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/image.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/managed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/typed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/image/image_io_lz4.cpp:4:
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SaveLz4(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_lz4.cpp:42:12:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output truncated before terminating nul copying 3 bytes from a string of the same length [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 12%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream.cpp.o[0m
+[ 12%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream_writer.cpp.o[0m
+[ 13%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/packetstream_reader.cpp.o[0m
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SaveLz4(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_lz4.cpp:43:12:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 16 equals destination size [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packet.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_reader.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/pango.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/image/image_io_pango.cpp:6:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 14%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/log/playback_session.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/geometry/geometry.cpp.o[0m
+[ 15%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/geometry/geometry_obj.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packet.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/src/log/packet.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 16%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/geometry/geometry_ply.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/geometry/glgeometry.cpp.o[0m
+[ 17%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/geometry/tinyobj.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packet.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_reader.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/src/log/packetstream_reader.cpp:26:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /usr/include/string.h:535,
+                 from /usr/include/c++/11/cstring:42,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/memcpy.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/image.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/managed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/image/typed_image.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/image/image_io_zstd.cpp:5:
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SaveZstd(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_zstd.cpp:27:12:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ output truncated before terminating nul copying 4 bytes from a string of the same length [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 18%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glchar.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packet.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_reader.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/playback_session.h:6,
+                 from /home/udhayan/ugv_ws/Pangolin/src/log/playback_session.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In function ‘char* strncpy(char*, const char*, size_t)’,
+    inlined from ‘void pangolin::SaveZstd(const pangolin::Image<unsigned char>&, const pangolin::PixelFormat&, std::ostream&, int)’ at /home/udhayan/ugv_ws/Pangolin/src/image/image_io_zstd.cpp:28:12:
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:95:34: warning: ‘char* __builtin_strncpy(char*, const char*, long unsigned int)’ specified bound 16 equals destination size [-Wstringop-truncation]
+   95 |   return __builtin___strncpy_chk (__dest, __src, __len,
+      |          ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+   96 |                                   __glibc_objsize (__dest));
+      |                                   ~~~~~~~~~~~~~~~~~~~~~~~~~
+[ 18%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gldraw.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_writer.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/src/log/packetstream_writer.cpp:26:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 19%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glfont.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/glpangoglu.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gltext.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/gl/glfont.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 21%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/gl/gltexturecache.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/display.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/image_view.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/opengl_render_state.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/view.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/viewport.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/window_factory.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/view.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 26%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler_glbuffer.cpp.o[0m
+[ 26%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/handler/handler_image.cpp.o[0m
+[ 27%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/plot/datalog.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/display.cpp:47:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 27%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/plot/plotter.cpp.o[0m
+[ 28%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/var/input_record_repeat.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/handler/handler.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/src/plot/plotter.cpp: In member function ‘void pangolin::Plotter::PlotSeries::CreatePlot(const string&, const string&, pangolin::Colour, std::string)’:
+/home/udhayan/ugv_ws/Pangolin/src/plot/plotter.cpp:102:50: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  102 |     this->title  = GlFont::I().Text(title.c_str());
+      |                                                  ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/plot/plotter.h:36,
+                 from /home/udhayan/ugv_ws/Pangolin/src/plot/plotter.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/var/input_record_repeat.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/var/input_record_repeat.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 29%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/images_out.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/images_out.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/images_out.cpp:32:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 29%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/split.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/split.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/split.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 30%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/truncate.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/truncate.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/truncate.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 30%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pvn.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/pvn.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/pvn.cpp:30:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 31%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pango.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_source.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packet.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/packetstream_reader.h:32,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/log/playback_session.h:6,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/pango.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 32%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pango_video_output.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/pango_video_output.cpp:31:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 32%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/debayer.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/debayer.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/debayer.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 33%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/shift.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/shift.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/shift.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 34%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/mirror.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/mirror.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/mirror.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 34%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/unpack.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/unpack.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/unpack.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 35%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/pack.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/pack.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/pack.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 35%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/join.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/join.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/join.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 36%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/merge.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/merge.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/merge.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 37%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/json.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/json.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 37%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/thread.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/thread.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/thread.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 38%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/shared_memory.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/shared_memory.h:3,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/shared_memory.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 38%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/tools/video_viewer.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_input.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/tools/video_viewer.h:5,
+                 from /home/udhayan/ugv_ws/Pangolin/src/tools/video_viewer.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 39%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/device/display_headless.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/device/display_headless.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 40%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/device/display_x11.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/device/display_x11.cpp:36:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 40%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/condition_variable.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/images.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/semaphore.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/utils/posix/shared_memory_buffer.cpp.o[0m
+[ 43%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/console/ConsoleView.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/images.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/images.cpp:30:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 44%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pyinterpreter.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/test.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:3:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h: In member function ‘pangolin::ConsoleView::Line& pangolin::ConsoleView::Line::operator=(pangolin::ConsoleView::Line&&)’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:47:12: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+   47 |     struct Line
+      |            ^~~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp: In member function ‘virtual void pangolin::ConsoleView::Keyboard(pangolin::View&, unsigned char, int, int, bool)’:
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:237:66: note: synthesized method ‘pangolin::ConsoleView::Line& pangolin::ConsoleView::Line::operator=(pangolin::ConsoleView::Line&&)’ first required here
+  237 |                     current_line = font.Text("%s", common.c_str());
+      |                                                                  ^
+In file included from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h: In member function ‘pangolin::ConsoleView::Line& pangolin::ConsoleView::Line::operator=(const pangolin::ConsoleView::Line&)’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:47:12: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+   47 |     struct Line
+      |            ^~~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp: In member function ‘virtual void pangolin::ConsoleView::Keyboard(pangolin::View&, unsigned char, int, int, bool)’:
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:252:33: note: synthesized method ‘pangolin::ConsoleView::Line& pangolin::ConsoleView::Line::operator=(const pangolin::ConsoleView::Line&)’ first required here
+  252 |                 current_line = *hist_line;
+      |                                 ^~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:277:54: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  277 |                 txt = font.Text("%s", newstr.c_str() );
+      |                                                      ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:285:54: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  285 |                 txt = font.Text("%s", newstr.c_str() );
+      |                                                      ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:289:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  289 |             txt = font.Text("");
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:295:49: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  295 |             txt = font.Text("%s", newstr.c_str());
+      |                                                 ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/console/ConsoleView.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/console/ConsoleView.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/test.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/test.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 44%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/colour.cpp.o[0m
+[ 45%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/datalog.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/attach.cpp.o[0m
+[ 46%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin_init.cpp.o[0m
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin_init.cpp: In function ‘PyObject* pangolin::InitPyPangolinModule()’:
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin_init.cpp:38:49: warning: ‘pybind11::module_::module_(const char*, const char*)’ is deprecated: Use PYBIND11_MODULE or module_::create_extension_module instead [-Wdeprecated-declarations]
+   38 |     auto pypango = pybind11::module("pypangolin");
+      |                                                 ^
+In file included from /home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/pypangolin.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/python/pypangolin_init.cpp:30:
+/usr/include/pybind11/pybind11.h:1033:14: note: declared here
+ 1033 |     explicit module_(const char *name, const char *doc = nullptr) {
+      |              ^~~~~~~
+[ 47%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/gl_draw.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/glsl.cpp.o[0m
+[ 48%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/handler.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/image.cpp.o[0m
+[ 49%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/image_view.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/opengl_render_state.cpp.o[0m
+[ 50%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/params.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/pixel_format.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/gl.cpp.o[0m
+[ 52%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/display.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_output_interface_factory.cpp.o[0m
+[ 53%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_output.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/video_output_interface_factory.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/video_output.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 53%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/viewport.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/widget.cpp.o[0m
+[ 54%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/window.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/firewire.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/firewire.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/firewire.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 56%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/deinterlace.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/deinterlace.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/deinterlace.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 56%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/v4l.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/v4l.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/v4l.cpp:31:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 57%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/ffmpeg.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/ffmpeg.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/ffmpeg.cpp:32:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 57%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/openni.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/openni.h:3,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/openni.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/src/video/drivers/openni.cpp: In constructor ‘pangolin::OpenNiVideo::OpenNiVideo(pangolin::OpenNiSensorType, pangolin::OpenNiSensorType, pangolin::ImageDim, int)’:
+/home/udhayan/ugv_ws/Pangolin/src/video/drivers/openni.cpp:82:28: warning: this statement may fall through [-Wimplicit-fallthrough=]
+   82 |             depth_to_color = true;
+      |             ~~~~~~~~~~~~~~~^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/video/drivers/openni.cpp:83:9: note: here
+   83 |         case OpenNiDepth_1mm:
+      |         ^~~~
+[ 58%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/drivers/openni2.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/drivers/openni2.h:31,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/drivers/openni2.cpp:30:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 59%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/fonts.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/view.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/video.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/video.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 61%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/var.cpp.o[0m
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp: In instantiation of ‘static void py_pangolin::VarBinder<Ts>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Ts = {}]’:
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:132:29:   recursively required from ‘static void py_pangolin::VarBinder<Head, Tail ...>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Head = int; Tail = {double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void()>}]’
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:132:29:   required from ‘static void py_pangolin::VarBinder<Head, Tail ...>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Head = bool; Tail = {int, double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void()>}]’
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:153:74:   required from here
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:117:53: warning: unused parameter ‘varClass’ [-Wunused-parameter]
+  117 |   static inline void Bind(pybind11::class_<var_t> & varClass) {}
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[ 62%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_input.cpp.o[0m
+[ 62%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/python/pypangolin/plotter.cpp.o[0m
+[ 64%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/video_interface_factory.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/video/stream_encoder_factory.cpp.o[0m
+[ 65%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/display/widgets/widgets.cpp.o[0m
+[ 66%] [32mBuilding CXX object src/CMakeFiles/pangolin.dir/var/vars.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/video_interface_factory.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/src/var/vars.cpp:31:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_input.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/video_input.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/src/video/video.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output_interface.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_output.h:46,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/display_internal.h:42,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:30:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In constructor ‘pangolin::Button::Button(std::string, pangolin::VarValueGeneric&)’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:238:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  238 |     gltext = font().Text(title);
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In constructor ‘pangolin::FunctionButton::FunctionButton(std::string, pangolin::VarValueGeneric&)’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:275:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  275 |     gltext = font().Text(title);
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In constructor ‘pangolin::Checkbox::Checkbox(std::string, pangolin::VarValueGeneric&)’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:313:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  313 |     gltext = font().Text(title);
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In constructor ‘pangolin::Slider::Slider(std::string, pangolin::VarValueGeneric&)’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:369:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  369 |     gltext = font().Text(title);
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In member function ‘virtual void pangolin::Slider::Render()’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:489:50: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  489 |         gltext = font().Text(var->Meta().friendly);
+      |                                                  ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In constructor ‘pangolin::TextInput::TextInput(std::string, pangolin::VarValueGeneric&)’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:512:31: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  512 |     gltext = font().Text(title);
+      |                               ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp: In member function ‘virtual void pangolin::TextInput::Render()’:
+/home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:657:30: warning: implicitly-declared ‘pangolin::GlText& pangolin::GlText::operator=(const pangolin::GlText&)’ is deprecated [-Wdeprecated-copy]
+  657 |     gledit = font().Text(edit);
+      |                              ^
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/glfont.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/display/widgets/widgets.h:33,
+                 from /home/udhayan/ugv_ws/Pangolin/src/display/widgets/widgets.cpp:28:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/gl/gltext.h:43:5: note: because ‘pangolin::GlText’ has user-provided ‘pangolin::GlText::GlText(const pangolin::GlText&)’
+   43 |     GlText(const GlText& txt);
+      |     ^~~~~~
+[ 66%] [32m[1mLinking CXX shared library libpangolin.so[0m
+[ 66%] Built target pangolin
+[ 67%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/attach.cpp.o[0m
+[ 67%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/colour.cpp.o[0m
+[ 68%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/datalog.cpp.o[0m
+[ 69%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/display.cpp.o[0m
+[ 70%] [32mBuilding CXX object examples/SimpleDisplayImage/CMakeFiles/SimpleDisplayImage.dir/main.cpp.o[0m
+[ 71%] [32mBuilding CXX object examples/SimpleMultiDisplay/CMakeFiles/SimpleMultiDisplay.dir/main.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleDisplayImage/main.cpp:3:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 71%] [32m[1mLinking CXX executable SimpleDisplayImage[0m
+[ 72%] [32mBuilding CXX object examples/HelloPangolinThreads/CMakeFiles/HelloPangolinThreads.dir/main.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleMultiDisplay/main.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 72%] Built target SimpleDisplayImage
+[ 72%] [32mBuilding CXX object examples/HelloPangolinOffscreen/CMakeFiles/HelloPangolinOffscreen.dir/main.cpp.o[0m
+[ 72%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/gl.cpp.o[0m
+[ 72%] [32mBuilding CXX object examples/HelloPangolin/CMakeFiles/HelloPangolin.dir/main.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable SimpleMultiDisplay[0m
+[ 73%] [32mBuilding CXX object tools/ModelViewer/CMakeFiles/ModelViewer.dir/main.cpp.o[0m
+[ 73%] Built target SimpleMultiDisplay
+[ 74%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/gl_draw.cpp.o[0m
+[ 75%] [32mBuilding CXX object tools/Plotter/CMakeFiles/Plotter.dir/main.cpp.o[0m
+[ 75%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/glsl.cpp.o[0m
+[ 75%] [32mBuilding CXX object tools/VideoJson/CMakeFiles/VideoJsonTransform.dir/main-transform.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/HelloPangolinThreads/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/HelloPangolinOffscreen/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/HelloPangolin/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 76%] [32mBuilding CXX object tools/VideoJson/CMakeFiles/VideoJsonPrint.dir/main-print.cpp.o[0m
+[ 77%] [32mBuilding CXX object tools/VideoConvert/CMakeFiles/VideoConvert.dir/main.cpp.o[0m
+[ 78%] [32mBuilding CXX object tools/VideoViewer/CMakeFiles/VideoViewer.dir/main.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable HelloPangolinThreads[0m
+[ 79%] [32m[1mLinking CXX executable HelloPangolin[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/Plotter/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 80%] [32m[1mLinking CXX executable HelloPangolinOffscreen[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/ModelViewer/main.cpp:5:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 80%] Built target HelloPangolinOffscreen
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/VideoJson/main-transform.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 80%] Built target HelloPangolinThreads
+[ 80%] Built target HelloPangolin
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/VideoViewer/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/VideoConvert/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/tools/VideoJson/main-print.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 80%] [32m[1mLinking CXX executable VideoViewer[0m
+[ 80%] Built target VideoViewer
+[ 81%] [32m[1mLinking CXX executable VideoJsonTransform[0m
+[ 81%] [32m[1mLinking CXX executable VideoConvert[0m
+[ 82%] [32m[1mLinking CXX executable VideoJsonPrint[0m
+[ 82%] Built target VideoJsonTransform
+[ 82%] Built target VideoConvert
+[ 83%] [32m[1mLinking CXX executable Plotter[0m
+[ 83%] Built target VideoJsonPrint
+[ 83%] Built target Plotter
+[ 84%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/opengl_render_state.cpp.o[0m
+[ 84%] [32m[1mLinking CXX executable ModelViewer[0m
+[ 84%] Built target ModelViewer
+[ 85%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/pixel_format.cpp.o[0m
+[ 85%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/params.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/plotter.cpp.o[0m
+[ 86%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/image_view.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/image.cpp.o[0m
+[ 87%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/view.cpp.o[0m
+[ 88%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/viewport.cpp.o[0m
+[ 89%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/video.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/video.cpp:29:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 89%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/var.cpp.o[0m
+[ 90%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/widget.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/handler.cpp.o[0m
+[ 91%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin/window.cpp.o[0m
+[ 92%] [32mBuilding CXX object src/CMakeFiles/pypangolin.dir/python/pypangolin_module.cpp.o[0m
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp: In instantiation of ‘static void py_pangolin::VarBinder<Ts>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Ts = {}]’:
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:132:29:   recursively required from ‘static void py_pangolin::VarBinder<Head, Tail ...>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Head = int; Tail = {double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void()>}]’
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:132:29:   required from ‘static void py_pangolin::VarBinder<Head, Tail ...>::Bind(pybind11::class_<py_pangolin::var_t>&) [with Head = bool; Tail = {int, double, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::function<void()>}]’
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:153:74:   required from here
+/home/udhayan/ugv_ws/Pangolin/src/python/pypangolin/var.cpp:117:53: warning: unused parameter ‘varClass’ [-Wunused-parameter]
+  117 |   static inline void Bind(pybind11::class_<var_t> & varClass) {}
+      |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+[ 93%] [32m[1mLinking CXX shared module pypangolin.cpython-310-x86_64-linux-gnu.so[0m
+lto-wrapper: warning: using serial compilation of 18 LTRANS jobs
+[ 93%] Built target pypangolin
+[ 93%] [32mBuilding CXX object examples/SimpleRecord/CMakeFiles/SimpleRecord.dir/main.cpp.o[0m
+[ 93%] [32mBuilding CXX object examples/SimpleScene/CMakeFiles/SimpleScene.dir/main.cpp.o[0m
+[ 94%] [32mBuilding CXX object examples/SimpleVideo/CMakeFiles/SimpleVideo.dir/main.cpp.o[0m
+[ 94%] [32mBuilding CXX object examples/SimpleDisplay/CMakeFiles/SimpleDisplay.dir/main.cpp.o[0m
+[ 94%] [32mBuilding CXX object examples/SharedMemoryCamera/CMakeFiles/SharedMemoryCamera.dir/main.cpp.o[0m
+[ 95%] [32mBuilding CXX object examples/SimplePlot/CMakeFiles/SimplePlot.dir/main.cpp.o[0m
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimplePlot/main.cpp:3:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleDisplay/main.cpp:2:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleScene/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleRecord/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SimpleVideo/main.cpp:7:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | GET(double, (type_ == int64_type && (const_cast<value*>(this)->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                                                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+In file included from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video_interface.h:30,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/video/video.h:124,
+                 from /home/udhayan/ugv_ws/Pangolin/include/pangolin/pangolin.h:56,
+                 from /home/udhayan/ugv_ws/Pangolin/examples/SharedMemoryCamera/main.cpp:1:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘const T& picojson::value::get() const [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:380:12: note: in definition of macro ‘GET’
+  380 |     return var;                                                 \
+      |            ^~~
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h: In member function ‘T& picojson::value::get() [with T = double]’:
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:392:122: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  392 | ->type_ = number_type, const_cast<value*>(this)->u_.number_ = u_.int64_), u_.number_))
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+
+/home/udhayan/ugv_ws/Pangolin/include/pangolin/utils/picojson.h:385:12: note: in definition of macro ‘GET’
+  385 |     return var;                                                 \
+      |            ^~~
+[ 96%] [32m[1mLinking CXX executable SimplePlot[0m
+[ 96%] [32m[1mLinking CXX executable SimpleVideo[0m
+[ 97%] [32m[1mLinking CXX executable SharedMemoryCamera[0m
+[ 98%] [32m[1mLinking CXX executable SimpleRecord[0m
+[ 98%] Built target SimplePlot
+[ 98%] Built target SimpleVideo
+[ 98%] Built target SharedMemoryCamera
+[ 98%] Built target SimpleRecord
+[ 99%] [32m[1mLinking CXX executable SimpleScene[0m
+[ 99%] Built target SimpleScene
+[100%] [32m[1mLinking CXX executable SimpleDisplay[0m
+[100%] Built target SimpleDisplay
+-- Install configuration: "Release"
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/config.h
+-- Up-to-date: /home/udhayan/ugv_ws/install/pangolin/include/pangolin
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/compat
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/compat/glutbitmap.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/compat/optional.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/compat/type_traits.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/compat/variant.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/console
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/console/ConsoleInterpreter.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/console/ConsoleView.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/attach.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/OsxWindow.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/PangolinNSApplication.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/PangolinNSGLView.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/WinWindow.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/X11GlContext.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/X11Window.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/device/display_android.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/display.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/display_internal.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/image_view.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/opengl_render_state.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/user_app.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/view.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/viewport.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/widgets
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/widgets/widgets.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/display/window.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/factory
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/factory/factory_registry.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/geometry
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/geometry/geometry.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/geometry/geometry_obj.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/geometry/geometry_ply.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/geometry/glgeometry.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/cg.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/compat
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/compat/gl2engine.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/compat/gl_es_compat.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/gl.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/gl.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glchar.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glcuda.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/gldraw.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glfont.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glformattraits.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glinclude.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glpangoglu.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glpixformat.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glplatform.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glsl.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glstate.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/gltext.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/gltexturecache.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/glvbo.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/gl/colour.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/handler
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/handler/handler.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/handler/handler_enums.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/handler/handler_glbuffer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/handler/handler_image.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/copy.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/image.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/image_convert.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/image_io.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/image_utils.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/managed_image.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/memcpy.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/pixel_format.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/image/typed_image.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/ios
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/ios/PangolinAppDelegate.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/ios/PangolinUIView.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packet.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packetstream.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packetstream_reader.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packetstream_source.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packetstream_tags.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/packetstream_writer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/playback_session.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/log/sync_time.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/pangolin.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/platform.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/plot
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/plot/datalog.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/plot/plotter.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/plot/range.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python/pyinterpreter.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python/pypangoio.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python/pypangolin_init.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python/pyuniqueobj.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/python/pyvar.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/axis.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/interactive.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/interactive_index.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/renderable.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/scenehandler.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/scene/tree.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/tools
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/tools/video_viewer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/argagg.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/assert.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/compontent_cast.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/file_extension.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/file_utils.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/fix_size_buffer_queue.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/format_string.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/log.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/memstreambuf.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/params.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/parse.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/picojson.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/posix
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/posix/condition_variable.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/posix/semaphore.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/posix/shared_memory_buffer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/registration.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/signal_slot.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/sigstate.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/simple_math.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/threadedfilebuf.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/timer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/transform.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/type_convert.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/uri.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/variadic_all.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml/license.txt
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml/rapidxml.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml/rapidxml_iterators.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml/rapidxml_print.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/utils/xml/rapidxml_utils.hpp
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/input_record_repeat.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/var.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varextra.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varstate.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varvalue.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varvaluegeneric.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varvaluet.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/var/varwrapper.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/debayer.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/deinterlace.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/depthsense.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/ffmpeg.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/firewire.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/images.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/images_out.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/join.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/merge.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/mirror.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/openni.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/openni2.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/openni_common.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/pack.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/pango.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/pango_video_output.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/pleora.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/pvn.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/realsense.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/realsense2.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/shared_memory.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/shift.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/split.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/teli.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/test.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/thread.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/truncate.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/unpack.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/uvc.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/uvc_mediafoundation.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/drivers/v4l.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/iostream_operators.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/stream_encoder_factory.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/stream_info.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_exception.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_input.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_interface.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_output.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_output_interface.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/include/pangolin/video/video_record_repeat.h
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/lib/libpangolin.so
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/lib/cmake/Pangolin/PangolinConfig.cmake
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/lib/cmake/Pangolin/PangolinConfigVersion.cmake
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/lib/cmake/Pangolin/PangolinTargets.cmake
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/lib/cmake/Pangolin/PangolinTargets-release.cmake
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/bin/VideoViewer
+-- Set runtime path of "/home/udhayan/ugv_ws/install/pangolin/bin/VideoViewer" to ""
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/bin/VideoConvert
+-- Set runtime path of "/home/udhayan/ugv_ws/install/pangolin/bin/VideoConvert" to ""
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/bin/VideoJsonPrint
+-- Set runtime path of "/home/udhayan/ugv_ws/install/pangolin/bin/VideoJsonPrint" to ""
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/bin/VideoJsonTransform
+-- Set runtime path of "/home/udhayan/ugv_ws/install/pangolin/bin/VideoJsonTransform" to ""
+-- Installing: /home/udhayan/ugv_ws/install/pangolin/bin/Plotter
+-- Set runtime path of "/home/udhayan/ugv_ws/install/pangolin/bin/Plotter" to ""

@@ -1,0 +1,28 @@
+running develop
+running egg_info
+creating ugv_robot.egg-info
+writing ugv_robot.egg-info/PKG-INFO
+writing dependency_links to ugv_robot.egg-info/dependency_links.txt
+writing entry points to ugv_robot.egg-info/entry_points.txt
+writing requirements to ugv_robot.egg-info/requires.txt
+writing top-level names to ugv_robot.egg-info/top_level.txt
+writing manifest file 'ugv_robot.egg-info/SOURCES.txt'
+reading manifest file 'ugv_robot.egg-info/SOURCES.txt'
+writing manifest file 'ugv_robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages/ugv-robot.egg-link (link to .)
+
+Installed /home/udhayan/ugv_ws/build/ugv_robot
+running symlink_data
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/resource/ugv_robot -> /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/package.xml -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/launch
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/launch/forest_robot.launch.py -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/launch
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/urdf
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/urdf/ugv.urdf.xacro -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/urdf
+creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/config/ugv_view.rviz -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config
+symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/config/gazebo_camera.yaml -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="rock_cluster">
+    <static>true</static>
+    <link name="link">
+      <collision name="col1"><pose>0 0 0.25 0 0 0</pose><geometry><box><size>0.9 0.8 0.5</size></box></geometry></collision>
+      <visual name="vis1"><pose>0 0 0.25 0 0 0</pose><geometry><box><size>0.9 0.8 0.5</size></box></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/RockMoss</name></script></material></visual>
+      <visual name="vis2"><pose>0.5 0.3 0.18 0.2 0.4 0.1</pose><geometry><box><size>0.6 0.5 0.36</size></box></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/RockMoss</name></script></material></visual>
+    </link>
+  </model>
+</sdf>

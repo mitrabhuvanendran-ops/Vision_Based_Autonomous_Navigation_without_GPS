@@ -1,0 +1,10 @@
+[0.017s] Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[0.105s] [ 33%] Building CXX object CMakeFiles/mono.dir/src/orb_slam_mono.cpp.o
+[2.068s] /home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:20:10: fatal error: tf2_ros/static_transform_broadcaster.h: No such file or directory
+[2.069s]    20 | #include <tf2_ros/static_transform_broadcaster.h>
+[2.071s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.071s] compilation terminated.
+[2.091s] gmake[2]: *** [CMakeFiles/mono.dir/build.make:76: CMakeFiles/mono.dir/src/orb_slam_mono.cpp.o] Error 1
+[2.094s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/mono.dir/all] Error 2
+[2.094s] gmake: *** [Makefile:146: all] Error 2
+[2.096s] Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '2': CMAKE_PREFIX_PATH=/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12

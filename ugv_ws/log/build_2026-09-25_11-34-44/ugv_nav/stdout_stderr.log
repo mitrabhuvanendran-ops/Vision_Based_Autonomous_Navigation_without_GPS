@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating ugv_nav.egg-info
+writing ugv_nav.egg-info/PKG-INFO
+writing dependency_links to ugv_nav.egg-info/dependency_links.txt
+writing entry points to ugv_nav.egg-info/entry_points.txt
+writing requirements to ugv_nav.egg-info/requires.txt
+writing top-level names to ugv_nav.egg-info/top_level.txt
+writing manifest file 'ugv_nav.egg-info/SOURCES.txt'
+reading manifest file 'ugv_nav.egg-info/SOURCES.txt'
+writing manifest file 'ugv_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages/ugv-nav.egg-link (link to .)
+Installing bisenet_node script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+Installing costmap_builder script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+Installing goal_converter script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+Installing path_follower script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+Installing rrt_planner script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+Installing safety_gate script to /home/udhayan/ugv_ws/install/ugv_nav/bin
+
+Installed /home/udhayan/ugv_ws/build/ugv_nav
+running symlink_data
+creating /home/udhayan/ugv_ws/install/ugv_nav/share/ament_index
+creating /home/udhayan/ugv_ws/install/ugv_nav/share/ament_index/resource_index
+creating /home/udhayan/ugv_ws/install/ugv_nav/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/resource/ugv_nav -> /home/udhayan/ugv_ws/install/ugv_nav/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/package.xml -> /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav
+creating /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/launch
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/launch/orbslam3.launch.py -> /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/launch
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/launch/ekf.launch.py -> /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/launch
+creating /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/config
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/config/ekf.yaml -> /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/config
+symbolically linking /home/udhayan/ugv_ws/build/ugv_nav/config/orbslam3_gazebo_rgbd.yaml -> /home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/config

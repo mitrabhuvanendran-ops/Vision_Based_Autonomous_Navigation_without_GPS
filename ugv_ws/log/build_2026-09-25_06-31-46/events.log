@@ -1,0 +1,892 @@
+[0.000000] (-) TimerEvent: {}
+[0.001535] (-) JobUnselected: {'identifier': 'ORB_SLAM3'}
+[0.001976] (-) JobUnselected: {'identifier': 'pangolin'}
+[0.002097] (-) JobUnselected: {'identifier': 'ugv_robot'}
+[0.002207] (-) JobUnselected: {'identifier': 'ugv_sim'}
+[0.002298] (-) JobUnselected: {'identifier': 'ugv_terrain'}
+[0.002348] (orbslam3_ros2) JobQueued: {'identifier': 'orbslam3_ros2', 'dependencies': OrderedDict()}
+[0.002492] (orbslam3_ros2) JobStarted: {'identifier': 'orbslam3_ros2'}
+[0.017712] (orbslam3_ros2) JobProgress: {'identifier': 'orbslam3_ros2', 'progress': 'cmake'}
+[0.018248] (orbslam3_ros2) JobProgress: {'identifier': 'orbslam3_ros2', 'progress': 'build'}
+[0.019904] (orbslam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/udhayan/ugv_ws/build/orbslam3_ros2', '--', '-j12', '-l12'], 'cwd': '/home/udhayan/ugv_ws/build/orbslam3_ros2', 'env': OrderedDict([('GUM_WRITE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_HELP_FOREGROUND', '#6f6766'), ('UWSM_FINALIZE_VARNAMES', 'HYPRLAND_INSTANCE_SIGNATURE HYPRLAND_CMD HYPRCURSOR_THEME HYPRCURSOR_SIZE XCURSOR_SIZE XCURSOR_THEME'), ('GUM_WRITE_PLACEHOLDER_BACKGROUND', '#140000'), ('GUM_LOG_MESSAGE_FOREGROUND', '#E8E0D8'), ('MAIL', '/var/spool/mail/udhayan'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('GUM_FILE_FILE_BACKGROUND', '#140000'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'udhayan'), ('GUM_PAGER_MATCH_BACKGROUND', '#140000'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1790248387_13313155'), ('GUM_LOG_KEY_BACKGROUND', '#140000'), ('GUM_CHOOSE_CURSOR_BACKGROUND', '#140000'), ('STARSHIP_SHELL', 'bash'), ('GUM_FILTER_INDICATOR_BACKGROUND', '#140000'), ('GUM_FILTER_UNSELECTED_PREFIX_FOREGROUND', '#6f6766'), ('HOSTNAME', 'UK'), ('XDG_SESSION_TYPE', 'wayland'), ('GUM_TABLE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_FILE_DIRECTORY_FOREGROUND', '#E8E0D8'), ('XCURSOR_SIZE', '24'), ('GUM_INPUT_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_LINE_NUMBER_FOREGROUND', '#6f6766'), ('XDG_CACHE_HOME', '/home/udhayan/.cache'), ('GUM_INPUT_PLACEHOLDER_BACKGROUND', '#140000'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('GUM_CONFIRM_PROMPT_BACKGROUND', '#140000'), ('BROWSER', 'omarchy-launch-browser'), ('INPUT_METHOD', 'fcitx'), ('GUM_WRITE_LINE_NUMBER_BACKGROUND', '#140000'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/udhayan'), ('TERMINFO', '/usr/share/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/udhayan'), ('TERM_PROGRAM_VERSION', '1.3.1-arch2'), ('OMARCHY_PATH', '/usr/share/omarchy'), ('DESKTOP_SESSION', 'omarchy'), ('MANROFFOPT', '-c'), ('GUM_FILTER_PLACEHOLDER_FOREGROUND', '#6f6766'), ('GUM_FILTER_SELECTED_PREFIX_BACKGROUND', '#E8E0D8'), ('GUM_TABLE_SELECTED_FOREGROUND', '#eee8e2'), ('ROS_PYTHON_VERSION', '3'), ('SDL_IM_MODULE', 'fcitx'), ('GUM_SPIN_TITLE_BACKGROUND', '#140000'), ('SUDO_EDITOR', 'omarchy-launch-editor --inline'), ('PS1', '📦[\\u@ros2 \\W]$'), ('GUM_FILE_FILE_SIZE_FOREGROUND', '#6f6766'), ('GUM_SPIN_SPINNER_BACKGROUND', '#140000'), ('GUM_PAGER_BACKGROUND', '#140000'), ('MANAGERPID', '1112'), ('GUM_CHOOSE_ITEM_FOREGROUND', '#E8E0D8'), ('GUM_FILE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_TEXT_BACKGROUND', '#140000'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1313'), ('GUM_FILTER_MATCH_BACKGROUND', '#140000'), ('GUM_FILTER_PROMPT_BACKGROUND', '#140000'), ('FOREGROUND', '#E8E0D8'), ('XDG_STATE_HOME', '/home/udhayan/.local/state'), ('GDK_SCALE', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('GUM_PAGER_HELP_BACKGROUND', '#140000'), ('GUM_WRITE_HEADER_BACKGROUND', '#140000'), ('GUM_LOG_MESSAGE_BACKGROUND', '#140000'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'gtk3'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/home/udhayan/ugv_ws/install'), ('GUM_WRITE_CURSOR_FOREGROUND', '#eee8e2'), ('GUM_WRITE_BASE_FOREGROUND', '#E8E0D8'), ('GUM_FILE_SELECTED_FOREGROUND', '#eee8e2'), ('ROS_DISTRO', 'humble'), ('GUM_WRITE_CURSOR_LINE_FOREGROUND', '#E8E0D8'), ('LOGNAME', 'udhayan'), ('GUM_FILTER_UNSELECTED_PREFIX_BACKGROUND', '#140000'), ('GUM_CHOOSE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_LOG_LEVEL_FOREGROUND', '#6378b8'), ('MANAGERPIDFDID', '16470'), ('GUM_TABLE_HEADER_BACKGROUND', '#140000'), ('MISE_SHELL', 'bash'), ('GUM_FILE_PERMISSIONS_FOREGROUND', '#6f6766'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XCOMPOSEFILE', '/home/udhayan/.XCompose'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/wayland-wm@hyprland.desktop.service/memory.pressure'), ('GUM_INPUT_HEADER_BACKGROUND', '#140000'), ('GUM_PAGER_LINE_NUMBER_BACKGROUND', '#140000'), ('XDG_SESSION_CLASS', 'user'), ('GUM_FILE_DIRECTORY_BACKGROUND', '#140000'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('GUM_LOG_SEPARATOR_FOREGROUND', '#6f6766'), ('TERM', 'xterm-ghostty'), ('GUM_WRITE_PROMPT_FOREGROUND', '#E8E0D8'), ('XDG_SESSION_ID', '1'), ('GUM_CONFIRM_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_CHOOSE_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_FILE_SYMLINK_FOREGROUND', '#E8E0D8'), ('GUM_INPUT_CURSOR_FOREGROUND', '#eee8e2'), ('ROS_LOCALHOST_ONLY', '0'), ('GUM_FILTER_HEADER_FOREGROUND', '#E8E0D8'), ('BORDER_FOREGROUND', '#6378b8'), ('GUM_FILTER_PLACEHOLDER_BACKGROUND', '#140000'), ('GUM_TABLE_SELECTED_BACKGROUND', '#E8E0D8'), ('PATH', '/opt/ros/humble/bin:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.local/share/mise/installs/claude/latest:/home/udhayan/.local/share/mise/installs/codex/latest/bin:/home/udhayan/.local/share/mise/installs/gemini/latest/node_modules/.bin:/home/udhayan/.local/share/mise/installs/gh/latest/gh_2.101.0_linux_amd64/bin:/home/udhayan/.local/share/mise/installs/java/latest/bin:/home/udhayan/.local/share/mise/installs/node/25.8.0/bin:/home/udhayan/.local/share/mise/installs/zig/0.16.0/bin:/home/udhayan/.local/share/mise/installs/zls/latest:/usr/share/omarchy/bin:/home/udhayan/.local/share/mise/shims:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.cargo/bin:/usr/local/bin:/usr/bin:/home/udhayan/.local/share/mise/shims:/home/udhayan/.local/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin'), ('GUM_LOG_TIME_FOREGROUND', '#6f6766'), ('GUM_WRITE_CURSOR_LINE_NUMBER_FOREGROUND', '#6f6766'), ('BAT_THEME', 'ansi'), ('GUM_LOG_VALUE_FOREGROUND', '#E8E0D8'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'hyprland-'), ('GUM_CHOOSE_ITEM_BACKGROUND', '#140000'), ('GUM_PAGER_MATCH_HIGH_FOREGROUND', '#6378b8'), ('GUM_FILE_HEADER_BACKGROUND', '#140000'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GUM_FILE_FILE_SIZE_BACKGROUND', '#140000'), ('GDK_BACKEND', 'wayland,x11,*'), ('GUM_INPUT_PROMPT_FOREGROUND', '#6378b8'), ('DISPLAY', ':0'), ('GUM_TABLE_CELL_FOREGROUND', '#E8E0D8'), ('HYPRCURSOR_SIZE', '24'), ('GUM_LOG_PREFIX_FOREGROUND', '#E8E0D8'), ('GUM_FILE_CURSOR_FOREGROUND', '#eee8e2'), ('GHOSTTY_SHELL_FEATURES', 'path,ssh-env,title'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('GUM_FILTER_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_FILTER_CURSOR_TEXT_FOREGROUND', '#eee8e2'), ('XDG_DATA_HOME', '/home/udhayan/.local/share'), ('XDG_CONFIG_HOME', '/home/udhayan/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('MANPAGER', "sh -c 'col -bx | bat -l man -p'"), ('GUM_WRITE_END_OF_BUFFER_FOREGROUND', '#6f6766'), ('GUM_TABLE_BORDER_FOREGROUND', '#6f6766'), ('GUM_CONFIRM_UNSELECTED_FOREGROUND', '#E8E0D8'), ('TERM_PROGRAM', 'ghostty'), ('GUM_WRITE_CURSOR_BACKGROUND', '#140000'), ('GUM_FILE_SELECTED_BACKGROUND', '#E8E0D8'), ('AMENT_PREFIX_PATH', '/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/home/udhayan/ugv_ws/install/orbslam3_ros2:/opt/ros/humble'), ('GUM_WRITE_BASE_BACKGROUND', '#140000'), ('SHELL', '/usr/bin/bash'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('GUM_WRITE_PLACEHOLDER_FOREGROUND', '#6f6766'), ('GUM_CHOOSE_HEADER_BACKGROUND', '#140000'), ('UWSM_WAIT_VARNAMES', 'HYPRLAND_INSTANCE_SIGNATURE'), ('OZONE_PLATFORM', 'wayland'), ('GUM_WRITE_CURSOR_LINE_BACKGROUND', '#E8E0D8'), ('GUM_FILE_PERMISSIONS_BACKGROUND', '#140000'), ('GUM_LOG_LEVEL_BACKGROUND', '#140000'), ('GUM_LOG_KEY_FOREGROUND', '#E8E0D8'), ('GUM_FILE_FILE_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_MATCH_FOREGROUND', '#6378b8'), ('GUM_CHOOSE_CURSOR_FOREGROUND', '#6378b8'), ('GUM_LOG_SEPARATOR_BACKGROUND', '#140000'), ('GUM_CONFIRM_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_FILTER_INDICATOR_FOREGROUND', '#6378b8'), ('GUM_WRITE_PROMPT_BACKGROUND', '#140000'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('GUM_FILE_SYMLINK_BACKGROUND', '#140000'), ('GUM_INPUT_CURSOR_BACKGROUND', '#140000'), ('GUM_CHOOSE_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_CONFIRM_PROMPT_FOREGROUND', '#6378b8'), ('BORDER_BACKGROUND', '#140000'), ('GUM_INPUT_PLACEHOLDER_FOREGROUND', '#6f6766'), ('ELECTRON_OZONE_PLATFORM_HINT', 'wayland'), ('GUM_FILTER_HEADER_BACKGROUND', '#140000'), ('QT_IM_MODULE', 'fcitx'), ('GUM_LOG_VALUE_BACKGROUND', '#140000'), ('JAVA_HOME', '/home/udhayan/.local/share/mise/installs/java/26.0.2'), ('PWD', '/home/udhayan/ugv_ws/build/orbslam3_ros2'), ('GUM_WRITE_CURSOR_LINE_NUMBER_BACKGROUND', '#140000'), ('GUM_WRITE_LINE_NUMBER_FOREGROUND', '#6f6766'), ('GUM_LOG_TIME_BACKGROUND', '#140000'), ('CONTAINER_ID', 'ros2'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('GUM_PAGER_MATCH_HIGH_BACKGROUND', '#140000'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('GUM_FILTER_SELECTED_PREFIX_FOREGROUND', '#eee8e2'), ('GUM_TABLE_CELL_BACKGROUND', '#140000'), ('STARSHIP_SESSION_KEY', '8517557917311193'), ('PYTHONPATH', '/home/udhayan/ugv_ws/build/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_robot:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('GUM_INPUT_PROMPT_BACKGROUND', '#140000'), ('GUM_SPIN_TITLE_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_FILE_CURSOR_BACKGROUND', '#140000'), ('GUM_LOG_PREFIX_BACKGROUND', '#140000'), ('COLCON', '1'), ('BACKGROUND', '#140000'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('TERMINAL', 'xdg-terminal-exec'), ('GUM_FILTER_CURSOR_TEXT_BACKGROUND', '#140000'), ('GUM_PAGER_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_TEXT_FOREGROUND', '#E8E0D8'), ('GUM_WRITE_END_OF_BUFFER_BACKGROUND', '#140000'), ('GUM_SPIN_SPINNER_FOREGROUND', '#6378b8'), ('GUM_CONFIRM_UNSELECTED_BACKGROUND', '#140000'), ('GUM_TABLE_BORDER_BACKGROUND', '#140000'), ('GUM_FILTER_PROMPT_FOREGROUND', '#6378b8'), ('EDITOR', 'omarchy-launch-editor --inline'), ('GUM_FILTER_MATCH_FOREGROUND', '#6378b8'), ('CMAKE_PREFIX_PATH', '/home/udhayan/ugv_ws/install/orbslam3_ros2:/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/opt/ros/humble')]), 'shell': False}
+[0.099330] (-) TimerEvent: {}
+[0.118350] (orbslam3_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target mono\x1b[0m\n'}
+[0.195276] (orbslam3_ros2) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/mono.dir/src/orb_slam_mono.cpp.o\x1b[0m\n'}
+[0.199439] (-) TimerEvent: {}
+[0.301319] (-) TimerEvent: {}
+[0.401710] (-) TimerEvent: {}
+[0.502110] (-) TimerEvent: {}
+[0.602482] (-) TimerEvent: {}
+[0.702895] (-) TimerEvent: {}
+[0.803337] (-) TimerEvent: {}
+[0.903816] (-) TimerEvent: {}
+[1.011589] (-) TimerEvent: {}
+[1.112098] (-) TimerEvent: {}
+[1.212560] (-) TimerEvent: {}
+[1.313717] (-) TimerEvent: {}
+[1.414198] (-) TimerEvent: {}
+[1.514622] (-) TimerEvent: {}
+[1.615074] (-) TimerEvent: {}
+[1.715710] (-) TimerEvent: {}
+[1.816213] (-) TimerEvent: {}
+[1.916641] (-) TimerEvent: {}
+[2.017103] (-) TimerEvent: {}
+[2.117565] (-) TimerEvent: {}
+[2.218238] (-) TimerEvent: {}
+[2.321232] (-) TimerEvent: {}
+[2.421709] (-) TimerEvent: {}
+[2.522178] (-) TimerEvent: {}
+[2.622621] (-) TimerEvent: {}
+[2.723039] (-) TimerEvent: {}
+[2.823396] (-) TimerEvent: {}
+[2.923859] (-) TimerEvent: {}
+[3.024401] (-) TimerEvent: {}
+[3.124997] (-) TimerEvent: {}
+[3.225405] (-) TimerEvent: {}
+[3.325825] (-) TimerEvent: {}
+[3.426716] (-) TimerEvent: {}
+[3.527564] (-) TimerEvent: {}
+[3.628486] (-) TimerEvent: {}
+[3.729709] (-) TimerEvent: {}
+[3.830908] (-) TimerEvent: {}
+[3.931335] (-) TimerEvent: {}
+[4.031843] (-) TimerEvent: {}
+[4.132284] (-) TimerEvent: {}
+[4.232716] (-) TimerEvent: {}
+[4.333245] (-) TimerEvent: {}
+[4.437116] (-) TimerEvent: {}
+[4.538336] (-) TimerEvent: {}
+[4.638781] (-) TimerEvent: {}
+[4.739801] (-) TimerEvent: {}
+[4.840710] (-) TimerEvent: {}
+[4.941160] (-) TimerEvent: {}
+[5.041712] (-) TimerEvent: {}
+[5.142226] (-) TimerEvent: {}
+[5.242669] (-) TimerEvent: {}
+[5.343707] (-) TimerEvent: {}
+[5.444147] (-) TimerEvent: {}
+[5.544649] (-) TimerEvent: {}
+[5.645315] (-) TimerEvent: {}
+[5.745843] (-) TimerEvent: {}
+[5.847669] (-) TimerEvent: {}
+[5.948223] (-) TimerEvent: {}
+[6.051213] (-) TimerEvent: {}
+[6.151660] (-) TimerEvent: {}
+[6.252538] (-) TimerEvent: {}
+[6.353072] (-) TimerEvent: {}
+[6.453543] (-) TimerEvent: {}
+[6.554147] (-) TimerEvent: {}
+[6.656210] (-) TimerEvent: {}
+[6.756711] (-) TimerEvent: {}
+[6.857709] (-) TimerEvent: {}
+[6.958154] (-) TimerEvent: {}
+[7.058633] (-) TimerEvent: {}
+[7.159517] (-) TimerEvent: {}
+[7.259932] (-) TimerEvent: {}
+[7.360338] (-) TimerEvent: {}
+[7.463324] (-) TimerEvent: {}
+[7.563988] (-) TimerEvent: {}
+[7.664657] (-) TimerEvent: {}
+[7.766829] (-) TimerEvent: {}
+[7.867710] (-) TimerEvent: {}
+[7.969709] (-) TimerEvent: {}
+[8.072447] (-) TimerEvent: {}
+[8.174706] (-) TimerEvent: {}
+[8.278784] (-) TimerEvent: {}
+[8.379402] (-) TimerEvent: {}
+[8.480350] (-) TimerEvent: {}
+[8.580800] (-) TimerEvent: {}
+[8.681225] (-) TimerEvent: {}
+[8.782507] (-) TimerEvent: {}
+[8.883685] (-) TimerEvent: {}
+[8.984709] (-) TimerEvent: {}
+[9.085145] (-) TimerEvent: {}
+[9.185564] (-) TimerEvent: {}
+[9.274343] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[9.274753] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.274920] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.275057] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.275191] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.275321] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.275452] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.275579] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.275719] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.275847] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.275977] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.276160] (orbslam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[9.276300] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.276431] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.276561] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.276702] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.276841] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.276988] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.277163] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.277299] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.277433] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.277564] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.277712] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.277845] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.277982] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.278111] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.278245] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.278381] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.278518] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.285718] (-) TimerEvent: {}
+[9.304910] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.305207] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.305321] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.305409] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.305508] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.305604] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.305696] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.305783] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.305864] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.305944] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.306026] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.306118] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[9.306205] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.306287] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.306367] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.306445] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.306513] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.306595] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.306674] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.306746] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.306832] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.306921] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.307002] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.307082] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.307162] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.307242] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.307336] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.307425] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.307507] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.307588] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[9.307675] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[9.307760] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[9.307842] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.307924] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.308003] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.308083] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.308165] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.308246] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.308326] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.308407] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[9.308502] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::Flags & \x1b[01;35m\x1b[KAlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[9.308591] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                                  \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.308678] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[9.308757] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[9.308837] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[9.308918] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[9.308998] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[9.309083] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[9.309166] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[9.309245] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[9.309324] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[9.309409] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[9.309489] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[9.309567] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[9.309652] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[9.309733] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[9.309813] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[9.309893] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[9.385844] (-) TimerEvent: {}
+[9.486251] (-) TimerEvent: {}
+[9.586704] (-) TimerEvent: {}
+[9.687702] (-) TimerEvent: {}
+[9.788254] (-) TimerEvent: {}
+[9.888677] (-) TimerEvent: {}
+[9.997575] (-) TimerEvent: {}
+[10.099733] (-) TimerEvent: {}
+[10.197924] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[10.198229] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.198319] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.198384] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.198446] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.198505] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.198572] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.198680] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.198784] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.198875] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.198981] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<3, Eigen::Matrix<double, 3, 1> >\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.199092] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_sba.h:40:35:\x1b[m\x1b[K   required from here\n'}
+[10.199192] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.199282] (orbslam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.199384] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.199490] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.199586] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.199691] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.199791] (-) TimerEvent: {}
+[10.199932] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.200037] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.200132] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.200224] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.200318] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.200414] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.200476] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.200535] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.200593] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.200664] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.200722] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.200780] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.200854] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.267978] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[10.268282] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.268404] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.268494] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.268580] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.268681] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.268773] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.268877] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.268974] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.269061] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.269144] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<6, g2o::SE3Quat>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.269234] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:59:33:\x1b[m\x1b[K   required from here\n'}
+[10.269320] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.269414] (orbslam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[10.269504] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.269593] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.269690] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.269783] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.269877] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.269972] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.270068] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.270156] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.270253] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.270347] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.270443] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.270545] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.270722] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.270836] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.270925] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.271010] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.271099] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.299938] (-) TimerEvent: {}
+[10.331855] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.332181] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.332312] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.332404] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.332500] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.332596] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.332710] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.332944] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.333074] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.333182] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.333269] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<6, g2o::SE3Quat, g2o::VertexSE3Expmap, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.333366] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:83:24:\x1b[m\x1b[K   required from here\n'}
+[10.333460] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.333575] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.333703] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.333811] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.333930] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.334024] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.334119] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.334216] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.334312] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.335398] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.335763] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.335956] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.336348] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.336509] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.336671] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.336816] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.336958] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.338122] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.338457] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.338603] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.338754] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.338891] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.339043] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.339197] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.339955] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.340600] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.340807] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.341514] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.342160] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.342314] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.343062] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.343217] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.347434] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.347775] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.349176] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.349357] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.349496] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.349807] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.349989] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.350292] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.350433] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.351605] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.352522] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.352695] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.354031] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.354206] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.354553] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.354722] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.400073] (-) TimerEvent: {}
+[10.484069] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.484514] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.484874] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.484991] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.485054] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.485115] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.485171] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.485225] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.485279] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.485331] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.485385] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.485454] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:114:35:\x1b[m\x1b[K   required from here\n'}
+[10.485520] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.485579] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.485645] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.485700] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.485772] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.485870] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.485994] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.486086] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.486178] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.486267] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.486356] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.486444] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.486532] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.486631] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.486718] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.486805] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.486893] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.486982] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.487076] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.500651] (-) TimerEvent: {}
+[10.513964] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.514278] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.514403] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.514495] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.514582] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.515026] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.515149] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.515254] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.515350] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.515452] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.515539] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.515702] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.515799] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.515879] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.515959] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.516045] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.516129] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.516184] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.516236] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.516288] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.516342] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.516394] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.516448] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.516500] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.516552] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.516604] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.516691] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.516777] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.516853] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.600759] (-) TimerEvent: {}
+[10.634934] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.635468] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.635595] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.635697] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.635995] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.636158] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.636302] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.636445] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.636571] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.636704] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.636823] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<3, Eigen::Matrix<double, 3, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSE3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[10.636948] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:146:41:\x1b[m\x1b[K   required from here\n'}
+[10.637069] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.637207] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[10.637334] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.637453] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.637573] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.637703] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.637823] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.637944] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.638072] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.638197] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.638417] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.638545] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.638733] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.638867] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.638997] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.639124] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.639253] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.639383] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.639516] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.639662] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[10.639792] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[10.639921] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[10.640051] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.640181] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.640309] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.640440] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.640589] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.640743] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.640884] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.641017] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[10.641164] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[10.641307] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.641498] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[10.641707] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[10.641849] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[10.642172] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[10.642303] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[10.642428] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[10.642553] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[10.642686] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[10.642807] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[10.642928] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[10.643055] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[10.643178] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[10.643301] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[10.643428] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[10.643555] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[10.643852] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[10.700897] (-) TimerEvent: {}
+[10.801372] (-) TimerEvent: {}
+[10.902807] (-) TimerEvent: {}
+[11.003226] (-) TimerEvent: {}
+[11.075106] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:37\x1b[m\x1b[K,\n'}
+[11.075330] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.075400] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.075460] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.075525] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.075590] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.075651] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.075704] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.075758] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.075825] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.075906] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseVertex<7, g2o::Sim3>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.075995] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:48:35:\x1b[m\x1b[K   required from here\n'}
+[11.076080] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_vertex.h:62:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.076176] (orbslam3_ros2) StderrLine: {'line': b'   62 |     typedef Eigen::Map<Matrix<double, D, D>, Matrix<double,D,D>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned >  HessianBlockType;\n'}
+[11.076262] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                  \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.076344] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[11.076425] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.076503] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.076583] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.076667] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.076750] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.076828] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.076908] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.076987] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.077063] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.077144] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.077227] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.077281] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.077332] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.077383] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.077435] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.103342] (-) TimerEvent: {}
+[11.139490] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.139821] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.139966] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.140098] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.140223] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.140345] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.140466] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.140587] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.140841] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.140961] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.141078] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<7, g2o::Sim3, g2o::VertexSim3Expmap, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.141200] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:99:27:\x1b[m\x1b[K   required from here\n'}
+[11.141317] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.141441] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[11.141581] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.141741] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[11.141865] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.141982] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.142098] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.142214] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.142329] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.142444] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.142560] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.142686] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.142807] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.142926] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.143046] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.143167] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.143287] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.143408] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.143606] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.143802] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.144051] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.144151] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.144231] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.144312] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.144385] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.144458] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.144544] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.144639] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.144757] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.145005] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.145145] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[11.145243] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.145330] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[11.145391] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.145451] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.145517] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.145581] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.145655] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.145750] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.145868] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.145978] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.146064] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.146132] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.146187] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.146245] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.146301] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.146356] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.146416] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.203497] (-) TimerEvent: {}
+[11.229658] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.230106] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.230200] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.230264] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.230323] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.230405] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.230481] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.230538] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.230592] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.230682] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.230768] (orbslam3_ros2) StderrLine: {'line': b'/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kclass g2o::BaseBinaryEdge<2, Eigen::Matrix<double, 2, 1>, g2o::VertexSBAPointXYZ, g2o::VertexSim3Expmap>\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[11.230857] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_seven_dof_expmap.h:130:36:\x1b[m\x1b[K   required from here\n'}
+[11.230944] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:59:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.231035] (orbslam3_ros2) StderrLine: {'line': b'   59 |       typedef Eigen::Map<Matrix<double, Di, Dj>, Matrix<double, Di, Dj>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockType;\n'}
+[11.231118] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.231199] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[11.231289] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.231485] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.231731] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.231896] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.232037] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.232164] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.232290] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.232423] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.232559] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.232705] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.232834] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.232959] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.233083] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.233211] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.233337] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.260625] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/types_six_dof_expmap.h:38\x1b[m\x1b[K,\n'}
+[11.260971] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Converter.h:26\x1b[m\x1b[K,\n'}
+[11.261128] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:33\x1b[m\x1b[K,\n'}
+[11.261267] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.261407] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.261536] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.261705] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.261838] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.261969] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.262098] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.262224] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/g2o/g2o/types/../core/base_binary_edge.h:60:80:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KEigen::AlignedBit\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[11.262381] (orbslam3_ros2) StderrLine: {'line': b'   60 |       typedef Eigen::Map<Matrix<double, Dj, Di>, Matrix<double, Dj, Di>::\x1b[01;35m\x1b[KFlags & AlignedBit\x1b[m\x1b[K ? Aligned : Unaligned > HessianBlockTransposedType;\n'}
+[11.262530] (orbslam3_ros2) StderrLine: {'line': b'      |                                                                          \x1b[01;35m\x1b[K~~~~~~^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.262673] (orbslam3_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:161\x1b[m\x1b[K,\n'}
+[11.262801] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/LU:11\x1b[m\x1b[K,\n'}
+[11.262929] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/so2.hpp:12\x1b[m\x1b[K,\n'}
+[11.263056] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/se2.hpp:7\x1b[m\x1b[K,\n'}
+[11.263184] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/Thirdparty/Sophus/sophus/geometry.hpp:7\x1b[m\x1b[K,\n'}
+[11.263310] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Frame.h:28\x1b[m\x1b[K,\n'}
+[11.263461] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/KeyFrame.h:29\x1b[m\x1b[K,\n'}
+[11.263598] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/MapPoint.h:24\x1b[m\x1b[K,\n'}
+[11.263843] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/FrameDrawer.h:24\x1b[m\x1b[K,\n'}
+[11.263927] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Viewer.h:23\x1b[m\x1b[K,\n'}
+[11.263984] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/Tracking.h:26\x1b[m\x1b[K,\n'}
+[11.264049] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/../ORB_SLAM3/include/System.h:32\x1b[m\x1b[K,\n'}
+[11.264107] (orbslam3_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/udhayan/ugv_ws/src/orbslam3_ros2/src/orb_slam_mono.cpp:11\x1b[m\x1b[K:\n'}
+[11.264161] (orbslam3_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/Constants.h:167:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[11.264228] (orbslam3_ros2) StderrLine: {'line': b'  167 | EIGEN_DEPRECATED const unsigned int \x1b[01;36m\x1b[KAlignedBit\x1b[m\x1b[K = 0x80;\n'}
+[11.264296] (orbslam3_ros2) StderrLine: {'line': b'      |                                     \x1b[01;36m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[11.303629] (-) TimerEvent: {}
+[11.404031] (-) TimerEvent: {}
+[11.504420] (-) TimerEvent: {}
+[11.604854] (-) TimerEvent: {}
+[11.705630] (-) TimerEvent: {}
+[11.806711] (-) TimerEvent: {}
+[11.907173] (-) TimerEvent: {}
+[12.010322] (-) TimerEvent: {}
+[12.119155] (-) TimerEvent: {}
+[12.219614] (-) TimerEvent: {}
+[12.320113] (-) TimerEvent: {}
+[12.420581] (-) TimerEvent: {}
+[12.522561] (-) TimerEvent: {}
+[12.622971] (-) TimerEvent: {}
+[12.723457] (-) TimerEvent: {}
+[12.823929] (-) TimerEvent: {}
+[12.924526] (-) TimerEvent: {}
+[13.026006] (-) TimerEvent: {}
+[13.127003] (-) TimerEvent: {}
+[13.227439] (-) TimerEvent: {}
+[13.327900] (-) TimerEvent: {}
+[13.428347] (-) TimerEvent: {}
+[13.529721] (-) TimerEvent: {}
+[13.630237] (-) TimerEvent: {}
+[13.730703] (-) TimerEvent: {}
+[13.831227] (-) TimerEvent: {}
+[13.931711] (-) TimerEvent: {}
+[14.033717] (-) TimerEvent: {}
+[14.134179] (-) TimerEvent: {}
+[14.234662] (-) TimerEvent: {}
+[14.335136] (-) TimerEvent: {}
+[14.435678] (-) TimerEvent: {}
+[14.536713] (-) TimerEvent: {}
+[14.637132] (-) TimerEvent: {}
+[14.737862] (-) TimerEvent: {}
+[14.838707] (-) TimerEvent: {}
+[14.939149] (-) TimerEvent: {}
+[15.039579] (-) TimerEvent: {}
+[15.140238] (-) TimerEvent: {}
+[15.240659] (-) TimerEvent: {}
+[15.341753] (-) TimerEvent: {}
+[15.442124] (-) TimerEvent: {}
+[15.542529] (-) TimerEvent: {}
+[15.643702] (-) TimerEvent: {}
+[15.744389] (-) TimerEvent: {}
+[15.844935] (-) TimerEvent: {}
+[15.947425] (-) TimerEvent: {}
+[16.047897] (-) TimerEvent: {}
+[16.148563] (-) TimerEvent: {}
+[16.249492] (-) TimerEvent: {}
+[16.354553] (-) TimerEvent: {}
+[16.455106] (-) TimerEvent: {}
+[16.555507] (-) TimerEvent: {}
+[16.655919] (-) TimerEvent: {}
+[16.757627] (-) TimerEvent: {}
+[16.858999] (-) TimerEvent: {}
+[16.959498] (-) TimerEvent: {}
+[17.059962] (-) TimerEvent: {}
+[17.161835] (-) TimerEvent: {}
+[17.262312] (-) TimerEvent: {}
+[17.362884] (-) TimerEvent: {}
+[17.463334] (-) TimerEvent: {}
+[17.563801] (-) TimerEvent: {}
+[17.664710] (-) TimerEvent: {}
+[17.765334] (-) TimerEvent: {}
+[17.867038] (-) TimerEvent: {}
+[17.967628] (-) TimerEvent: {}
+[18.068400] (-) TimerEvent: {}
+[18.168851] (-) TimerEvent: {}
+[18.269256] (-) TimerEvent: {}
+[18.369693] (-) TimerEvent: {}
+[18.472512] (-) TimerEvent: {}
+[18.573108] (-) TimerEvent: {}
+[18.673549] (-) TimerEvent: {}
+[18.774021] (-) TimerEvent: {}
+[18.874548] (-) TimerEvent: {}
+[18.975024] (-) TimerEvent: {}
+[19.075481] (-) TimerEvent: {}
+[19.175950] (-) TimerEvent: {}
+[19.277338] (-) TimerEvent: {}
+[19.378273] (-) TimerEvent: {}
+[19.479306] (-) TimerEvent: {}
+[19.579707] (-) TimerEvent: {}
+[19.680110] (-) TimerEvent: {}
+[19.780462] (-) TimerEvent: {}
+[19.886896] (-) TimerEvent: {}
+[19.987326] (-) TimerEvent: {}
+[20.088074] (-) TimerEvent: {}
+[20.189041] (-) TimerEvent: {}
+[20.291535] (-) TimerEvent: {}
+[20.392293] (-) TimerEvent: {}
+[20.498188] (-) TimerEvent: {}
+[20.598650] (-) TimerEvent: {}
+[20.699571] (-) TimerEvent: {}
+[20.800289] (-) TimerEvent: {}
+[20.904781] (-) TimerEvent: {}
+[21.005210] (-) TimerEvent: {}
+[21.105648] (-) TimerEvent: {}
+[21.208590] (-) TimerEvent: {}
+[21.309574] (-) TimerEvent: {}
+[21.410035] (-) TimerEvent: {}
+[21.512868] (-) TimerEvent: {}
+[21.613336] (-) TimerEvent: {}
+[21.713860] (-) TimerEvent: {}
+[21.814315] (-) TimerEvent: {}
+[21.915398] (-) TimerEvent: {}
+[22.017227] (-) TimerEvent: {}
+[22.123202] (-) TimerEvent: {}
+[22.223790] (-) TimerEvent: {}
+[22.324354] (-) TimerEvent: {}
+[22.425711] (-) TimerEvent: {}
+[22.526182] (-) TimerEvent: {}
+[22.626715] (-) TimerEvent: {}
+[22.729912] (-) TimerEvent: {}
+[22.830430] (-) TimerEvent: {}
+[22.931907] (-) TimerEvent: {}
+[23.032564] (-) TimerEvent: {}
+[23.133803] (-) TimerEvent: {}
+[23.234820] (-) TimerEvent: {}
+[23.335292] (-) TimerEvent: {}
+[23.436718] (-) TimerEvent: {}
+[23.540307] (-) TimerEvent: {}
+[23.641324] (-) TimerEvent: {}
+[23.742307] (-) TimerEvent: {}
+[23.843707] (-) TimerEvent: {}
+[23.944171] (-) TimerEvent: {}
+[24.044608] (-) TimerEvent: {}
+[24.145013] (-) TimerEvent: {}
+[24.245534] (-) TimerEvent: {}
+[24.349707] (-) TimerEvent: {}
+[24.451010] (-) TimerEvent: {}
+[24.551723] (-) TimerEvent: {}
+[24.652069] (-) TimerEvent: {}
+[24.752417] (-) TimerEvent: {}
+[24.854663] (-) TimerEvent: {}
+[24.957498] (-) TimerEvent: {}
+[25.057973] (-) TimerEvent: {}
+[25.158417] (-) TimerEvent: {}
+[25.258879] (-) TimerEvent: {}
+[25.359286] (-) TimerEvent: {}
+[25.459756] (-) TimerEvent: {}
+[25.560162] (-) TimerEvent: {}
+[25.660704] (-) TimerEvent: {}
+[25.761164] (-) TimerEvent: {}
+[25.861978] (-) TimerEvent: {}
+[25.962455] (-) TimerEvent: {}
+[26.062936] (-) TimerEvent: {}
+[26.163721] (-) TimerEvent: {}
+[26.265486] (-) TimerEvent: {}
+[26.365943] (-) TimerEvent: {}
+[26.469166] (-) TimerEvent: {}
+[26.569776] (-) TimerEvent: {}
+[26.670248] (-) TimerEvent: {}
+[26.770720] (-) TimerEvent: {}
+[26.871208] (-) TimerEvent: {}
+[26.971679] (-) TimerEvent: {}
+[27.072709] (-) TimerEvent: {}
+[27.173163] (-) TimerEvent: {}
+[27.273598] (-) TimerEvent: {}
+[27.375702] (-) TimerEvent: {}
+[27.476119] (-) TimerEvent: {}
+[27.577537] (-) TimerEvent: {}
+[27.678050] (-) TimerEvent: {}
+[27.780200] (-) TimerEvent: {}
+[27.880680] (-) TimerEvent: {}
+[27.981678] (-) TimerEvent: {}
+[28.082085] (-) TimerEvent: {}
+[28.185996] (-) TimerEvent: {}
+[28.286452] (-) TimerEvent: {}
+[28.388604] (-) TimerEvent: {}
+[28.489078] (-) TimerEvent: {}
+[28.589650] (-) TimerEvent: {}
+[28.690197] (-) TimerEvent: {}
+[28.790704] (-) TimerEvent: {}
+[28.892882] (-) TimerEvent: {}
+[28.993313] (-) TimerEvent: {}
+[29.093711] (-) TimerEvent: {}
+[29.196525] (-) TimerEvent: {}
+[29.297228] (-) TimerEvent: {}
+[29.399183] (-) TimerEvent: {}
+[29.499605] (-) TimerEvent: {}
+[29.600107] (-) TimerEvent: {}
+[29.700626] (-) TimerEvent: {}
+[29.801057] (-) TimerEvent: {}
+[29.903535] (-) TimerEvent: {}
+[30.004126] (-) TimerEvent: {}
+[30.104588] (-) TimerEvent: {}
+[30.205043] (-) TimerEvent: {}
+[30.305544] (-) TimerEvent: {}
+[30.407171] (-) TimerEvent: {}
+[30.510464] (-) TimerEvent: {}
+[30.610949] (-) TimerEvent: {}
+[30.713504] (-) TimerEvent: {}
+[30.814067] (-) TimerEvent: {}
+[30.919364] (-) TimerEvent: {}
+[31.019761] (-) TimerEvent: {}
+[31.120700] (-) TimerEvent: {}
+[31.221114] (-) TimerEvent: {}
+[31.322308] (-) TimerEvent: {}
+[31.422752] (-) TimerEvent: {}
+[31.524963] (-) TimerEvent: {}
+[31.625372] (-) TimerEvent: {}
+[31.725806] (-) TimerEvent: {}
+[31.826233] (-) TimerEvent: {}
+[31.926640] (-) TimerEvent: {}
+[32.027516] (-) TimerEvent: {}
+[32.127947] (-) TimerEvent: {}
+[32.228376] (-) TimerEvent: {}
+[32.328800] (-) TimerEvent: {}
+[32.429239] (-) TimerEvent: {}
+[32.529703] (-) TimerEvent: {}
+[32.630229] (-) TimerEvent: {}
+[32.731912] (-) TimerEvent: {}
+[32.832372] (-) TimerEvent: {}
+[32.934261] (-) TimerEvent: {}
+[33.034665] (-) TimerEvent: {}
+[33.135091] (-) TimerEvent: {}
+[33.235498] (-) TimerEvent: {}
+[33.337744] (-) TimerEvent: {}
+[33.438178] (-) TimerEvent: {}
+[33.539201] (-) TimerEvent: {}
+[33.639877] (-) TimerEvent: {}
+[33.744405] (-) TimerEvent: {}
+[33.845399] (-) TimerEvent: {}
+[33.947669] (-) TimerEvent: {}
+[34.048352] (-) TimerEvent: {}
+[34.151545] (-) TimerEvent: {}
+[34.252039] (-) TimerEvent: {}
+[34.352474] (-) TimerEvent: {}
+[34.452866] (-) TimerEvent: {}
+[34.553242] (-) TimerEvent: {}
+[34.653704] (-) TimerEvent: {}
+[34.755035] (-) TimerEvent: {}
+[34.855541] (-) TimerEvent: {}
+[34.954305] (orbslam3_ros2) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable mono\x1b[0m\n'}
+[34.955624] (-) TimerEvent: {}
+[35.055968] (-) TimerEvent: {}
+[35.156451] (-) TimerEvent: {}
+[35.263838] (-) TimerEvent: {}
+[35.364327] (-) TimerEvent: {}
+[35.465721] (-) TimerEvent: {}
+[35.566220] (-) TimerEvent: {}
+[35.666707] (-) TimerEvent: {}
+[35.767768] (-) TimerEvent: {}
+[35.868272] (-) TimerEvent: {}
+[35.968783] (-) TimerEvent: {}
+[36.070300] (-) TimerEvent: {}
+[36.170861] (-) TimerEvent: {}
+[36.271294] (-) TimerEvent: {}
+[36.371787] (-) TimerEvent: {}
+[36.472710] (-) TimerEvent: {}
+[36.573196] (-) TimerEvent: {}
+[36.673641] (-) TimerEvent: {}
+[36.773994] (-) TimerEvent: {}
+[36.874394] (-) TimerEvent: {}
+[36.974894] (-) TimerEvent: {}
+[37.075515] (-) TimerEvent: {}
+[37.176046] (-) TimerEvent: {}
+[37.276468] (-) TimerEvent: {}
+[37.376869] (-) TimerEvent: {}
+[37.477237] (-) TimerEvent: {}
+[37.529734] (orbslam3_ros2) StdoutLine: {'line': b'[100%] Built target mono\n'}
+[37.575565] (orbslam3_ros2) CommandEnded: {'returncode': 0}
+[37.580979] (-) TimerEvent: {}
+[37.583170] (orbslam3_ros2) JobProgress: {'identifier': 'orbslam3_ros2', 'progress': 'install'}
+[37.599278] (orbslam3_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/udhayan/ugv_ws/build/orbslam3_ros2'], 'cwd': '/home/udhayan/ugv_ws/build/orbslam3_ros2', 'env': OrderedDict([('GUM_WRITE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_HELP_FOREGROUND', '#6f6766'), ('UWSM_FINALIZE_VARNAMES', 'HYPRLAND_INSTANCE_SIGNATURE HYPRLAND_CMD HYPRCURSOR_THEME HYPRCURSOR_SIZE XCURSOR_SIZE XCURSOR_THEME'), ('GUM_WRITE_PLACEHOLDER_BACKGROUND', '#140000'), ('GUM_LOG_MESSAGE_FOREGROUND', '#E8E0D8'), ('MAIL', '/var/spool/mail/udhayan'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('GUM_FILE_FILE_BACKGROUND', '#140000'), ('GHOSTTY_RESOURCES_DIR', '/usr/share/ghostty'), ('USER', 'udhayan'), ('GUM_PAGER_MATCH_BACKGROUND', '#140000'), ('HYPRLAND_INSTANCE_SIGNATURE', 'efb50993780079460b0cbed1363e2166a2de1d9f_1790248387_13313155'), ('GUM_LOG_KEY_BACKGROUND', '#140000'), ('GUM_CHOOSE_CURSOR_BACKGROUND', '#140000'), ('STARSHIP_SHELL', 'bash'), ('GUM_FILTER_INDICATOR_BACKGROUND', '#140000'), ('GUM_FILTER_UNSELECTED_PREFIX_FOREGROUND', '#6f6766'), ('HOSTNAME', 'UK'), ('XDG_SESSION_TYPE', 'wayland'), ('GUM_TABLE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_FILE_DIRECTORY_FOREGROUND', '#E8E0D8'), ('XCURSOR_SIZE', '24'), ('GUM_INPUT_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_LINE_NUMBER_FOREGROUND', '#6f6766'), ('XDG_CACHE_HOME', '/home/udhayan/.cache'), ('GUM_INPUT_PLACEHOLDER_BACKGROUND', '#140000'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('GUM_CONFIRM_PROMPT_BACKGROUND', '#140000'), ('BROWSER', 'omarchy-launch-browser'), ('INPUT_METHOD', 'fcitx'), ('GUM_WRITE_LINE_NUMBER_BACKGROUND', '#140000'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/udhayan'), ('TERMINFO', '/usr/share/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/udhayan'), ('TERM_PROGRAM_VERSION', '1.3.1-arch2'), ('OMARCHY_PATH', '/usr/share/omarchy'), ('DESKTOP_SESSION', 'omarchy'), ('MANROFFOPT', '-c'), ('GUM_FILTER_PLACEHOLDER_FOREGROUND', '#6f6766'), ('GUM_FILTER_SELECTED_PREFIX_BACKGROUND', '#E8E0D8'), ('GUM_TABLE_SELECTED_FOREGROUND', '#eee8e2'), ('ROS_PYTHON_VERSION', '3'), ('SDL_IM_MODULE', 'fcitx'), ('GUM_SPIN_TITLE_BACKGROUND', '#140000'), ('SUDO_EDITOR', 'omarchy-launch-editor --inline'), ('PS1', '📦[\\u@ros2 \\W]$'), ('GUM_FILE_FILE_SIZE_FOREGROUND', '#6f6766'), ('GUM_SPIN_SPINNER_BACKGROUND', '#140000'), ('GUM_PAGER_BACKGROUND', '#140000'), ('MANAGERPID', '1112'), ('GUM_CHOOSE_ITEM_FOREGROUND', '#E8E0D8'), ('GUM_FILE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_TEXT_BACKGROUND', '#140000'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1313'), ('GUM_FILTER_MATCH_BACKGROUND', '#140000'), ('GUM_FILTER_PROMPT_BACKGROUND', '#140000'), ('FOREGROUND', '#E8E0D8'), ('XDG_STATE_HOME', '/home/udhayan/.local/state'), ('GDK_SCALE', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('container', 'podman'), ('GUM_PAGER_HELP_BACKGROUND', '#140000'), ('GUM_WRITE_HEADER_BACKGROUND', '#140000'), ('GUM_LOG_MESSAGE_BACKGROUND', '#140000'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'gtk3'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/home/udhayan/ugv_ws/install'), ('GUM_WRITE_CURSOR_FOREGROUND', '#eee8e2'), ('GUM_WRITE_BASE_FOREGROUND', '#E8E0D8'), ('GUM_FILE_SELECTED_FOREGROUND', '#eee8e2'), ('ROS_DISTRO', 'humble'), ('GUM_WRITE_CURSOR_LINE_FOREGROUND', '#E8E0D8'), ('LOGNAME', 'udhayan'), ('GUM_FILTER_UNSELECTED_PREFIX_BACKGROUND', '#140000'), ('GUM_CHOOSE_HEADER_FOREGROUND', '#E8E0D8'), ('GUM_LOG_LEVEL_FOREGROUND', '#6378b8'), ('MANAGERPIDFDID', '16470'), ('GUM_TABLE_HEADER_BACKGROUND', '#140000'), ('MISE_SHELL', 'bash'), ('GUM_FILE_PERMISSIONS_FOREGROUND', '#6f6766'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XCOMPOSEFILE', '/home/udhayan/.XCompose'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/wayland-wm@hyprland.desktop.service/memory.pressure'), ('GUM_INPUT_HEADER_BACKGROUND', '#140000'), ('GUM_PAGER_LINE_NUMBER_BACKGROUND', '#140000'), ('XDG_SESSION_CLASS', 'user'), ('GUM_FILE_DIRECTORY_BACKGROUND', '#140000'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('GUM_LOG_SEPARATOR_FOREGROUND', '#6f6766'), ('TERM', 'xterm-ghostty'), ('GUM_WRITE_PROMPT_FOREGROUND', '#E8E0D8'), ('XDG_SESSION_ID', '1'), ('GUM_CONFIRM_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_CHOOSE_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_FILE_SYMLINK_FOREGROUND', '#E8E0D8'), ('GUM_INPUT_CURSOR_FOREGROUND', '#eee8e2'), ('ROS_LOCALHOST_ONLY', '0'), ('GUM_FILTER_HEADER_FOREGROUND', '#E8E0D8'), ('BORDER_FOREGROUND', '#6378b8'), ('GUM_FILTER_PLACEHOLDER_BACKGROUND', '#140000'), ('GUM_TABLE_SELECTED_BACKGROUND', '#E8E0D8'), ('PATH', '/opt/ros/humble/bin:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.local/share/mise/installs/claude/latest:/home/udhayan/.local/share/mise/installs/codex/latest/bin:/home/udhayan/.local/share/mise/installs/gemini/latest/node_modules/.bin:/home/udhayan/.local/share/mise/installs/gh/latest/gh_2.101.0_linux_amd64/bin:/home/udhayan/.local/share/mise/installs/java/latest/bin:/home/udhayan/.local/share/mise/installs/node/25.8.0/bin:/home/udhayan/.local/share/mise/installs/zig/0.16.0/bin:/home/udhayan/.local/share/mise/installs/zls/latest:/usr/share/omarchy/bin:/home/udhayan/.local/share/mise/shims:/home/udhayan/.local/bin:/home/udhayan/.local/bin:/home/udhayan/.cargo/bin:/usr/local/bin:/usr/bin:/home/udhayan/.local/share/mise/shims:/home/udhayan/.local/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin'), ('GUM_LOG_TIME_FOREGROUND', '#6f6766'), ('GUM_WRITE_CURSOR_LINE_NUMBER_FOREGROUND', '#6f6766'), ('BAT_THEME', 'ansi'), ('GUM_LOG_VALUE_FOREGROUND', '#E8E0D8'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session0'), ('XDG_MENU_PREFIX', 'hyprland-'), ('GUM_CHOOSE_ITEM_BACKGROUND', '#140000'), ('GUM_PAGER_MATCH_HIGH_FOREGROUND', '#6378b8'), ('GUM_FILE_HEADER_BACKGROUND', '#140000'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GUM_FILE_FILE_SIZE_BACKGROUND', '#140000'), ('GDK_BACKEND', 'wayland,x11,*'), ('GUM_INPUT_PROMPT_FOREGROUND', '#6378b8'), ('DISPLAY', ':0'), ('GUM_TABLE_CELL_FOREGROUND', '#E8E0D8'), ('HYPRCURSOR_SIZE', '24'), ('GUM_LOG_PREFIX_FOREGROUND', '#E8E0D8'), ('GUM_FILE_CURSOR_FOREGROUND', '#eee8e2'), ('GHOSTTY_SHELL_FEATURES', 'path,ssh-env,title'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('GUM_FILTER_SELECTED_FOREGROUND', '#eee8e2'), ('GUM_FILTER_CURSOR_TEXT_FOREGROUND', '#eee8e2'), ('XDG_DATA_HOME', '/home/udhayan/.local/share'), ('XDG_CONFIG_HOME', '/home/udhayan/.config'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('MANPAGER', "sh -c 'col -bx | bat -l man -p'"), ('GUM_WRITE_END_OF_BUFFER_FOREGROUND', '#6f6766'), ('GUM_TABLE_BORDER_FOREGROUND', '#6f6766'), ('GUM_CONFIRM_UNSELECTED_FOREGROUND', '#E8E0D8'), ('TERM_PROGRAM', 'ghostty'), ('GUM_WRITE_CURSOR_BACKGROUND', '#140000'), ('GUM_FILE_SELECTED_BACKGROUND', '#E8E0D8'), ('AMENT_PREFIX_PATH', '/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/home/udhayan/ugv_ws/install/orbslam3_ros2:/opt/ros/humble'), ('GUM_WRITE_BASE_BACKGROUND', '#140000'), ('SHELL', '/usr/bin/bash'), ('GHOSTTY_BIN_DIR', '/usr/bin'), ('GUM_WRITE_PLACEHOLDER_FOREGROUND', '#6f6766'), ('GUM_CHOOSE_HEADER_BACKGROUND', '#140000'), ('UWSM_WAIT_VARNAMES', 'HYPRLAND_INSTANCE_SIGNATURE'), ('OZONE_PLATFORM', 'wayland'), ('GUM_WRITE_CURSOR_LINE_BACKGROUND', '#E8E0D8'), ('GUM_FILE_PERMISSIONS_BACKGROUND', '#140000'), ('GUM_LOG_LEVEL_BACKGROUND', '#140000'), ('GUM_LOG_KEY_FOREGROUND', '#E8E0D8'), ('GUM_FILE_FILE_FOREGROUND', '#E8E0D8'), ('GUM_PAGER_MATCH_FOREGROUND', '#6378b8'), ('GUM_CHOOSE_CURSOR_FOREGROUND', '#6378b8'), ('GUM_LOG_SEPARATOR_BACKGROUND', '#140000'), ('GUM_CONFIRM_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_FILTER_INDICATOR_FOREGROUND', '#6378b8'), ('GUM_WRITE_PROMPT_BACKGROUND', '#140000'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('GUM_FILE_SYMLINK_BACKGROUND', '#140000'), ('GUM_INPUT_CURSOR_BACKGROUND', '#140000'), ('GUM_CHOOSE_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_CONFIRM_PROMPT_FOREGROUND', '#6378b8'), ('BORDER_BACKGROUND', '#140000'), ('GUM_INPUT_PLACEHOLDER_FOREGROUND', '#6f6766'), ('ELECTRON_OZONE_PLATFORM_HINT', 'wayland'), ('GUM_FILTER_HEADER_BACKGROUND', '#140000'), ('QT_IM_MODULE', 'fcitx'), ('GUM_LOG_VALUE_BACKGROUND', '#140000'), ('JAVA_HOME', '/home/udhayan/.local/share/mise/installs/java/26.0.2'), ('PWD', '/home/udhayan/ugv_ws/build/orbslam3_ros2'), ('GUM_WRITE_CURSOR_LINE_NUMBER_BACKGROUND', '#140000'), ('GUM_WRITE_LINE_NUMBER_FOREGROUND', '#6f6766'), ('GUM_LOG_TIME_BACKGROUND', '#140000'), ('CONTAINER_ID', 'ros2'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('GUM_PAGER_MATCH_HIGH_BACKGROUND', '#140000'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share'), ('GUM_FILTER_SELECTED_PREFIX_FOREGROUND', '#eee8e2'), ('GUM_TABLE_CELL_BACKGROUND', '#140000'), ('STARSHIP_SESSION_KEY', '8517557917311193'), ('PYTHONPATH', '/home/udhayan/ugv_ws/build/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_robot:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('GUM_INPUT_PROMPT_BACKGROUND', '#140000'), ('GUM_SPIN_TITLE_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_SELECTED_BACKGROUND', '#E8E0D8'), ('GUM_FILE_CURSOR_BACKGROUND', '#140000'), ('GUM_LOG_PREFIX_BACKGROUND', '#140000'), ('COLCON', '1'), ('BACKGROUND', '#140000'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('TERMINAL', 'xdg-terminal-exec'), ('GUM_FILTER_CURSOR_TEXT_BACKGROUND', '#140000'), ('GUM_PAGER_FOREGROUND', '#E8E0D8'), ('GUM_FILTER_TEXT_FOREGROUND', '#E8E0D8'), ('GUM_WRITE_END_OF_BUFFER_BACKGROUND', '#140000'), ('GUM_SPIN_SPINNER_FOREGROUND', '#6378b8'), ('GUM_CONFIRM_UNSELECTED_BACKGROUND', '#140000'), ('GUM_TABLE_BORDER_BACKGROUND', '#140000'), ('GUM_FILTER_PROMPT_FOREGROUND', '#6378b8'), ('EDITOR', 'omarchy-launch-editor --inline'), ('GUM_FILTER_MATCH_FOREGROUND', '#6378b8'), ('CMAKE_PREFIX_PATH', '/home/udhayan/ugv_ws/install/orbslam3_ros2:/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/opt/ros/humble')]), 'shell': False}
+[37.618431] (orbslam3_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[37.622161] (orbslam3_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[37.622548] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/lib/orbslam3_ros2/mono\n'}
+[37.622946] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/package_run_dependencies/orbslam3_ros2\n'}
+[37.623213] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/parent_prefix_path/orbslam3_ros2\n'}
+[37.625708] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.sh\n'}
+[37.625965] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.dsv\n'}
+[37.626130] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.sh\n'}
+[37.626273] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.dsv\n'}
+[37.626409] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.bash\n'}
+[37.626541] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.sh\n'}
+[37.626696] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.zsh\n'}
+[37.626831] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.dsv\n'}
+[37.626967] (orbslam3_ros2) StdoutLine: {'line': b'-- Symlinking: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.dsv\n'}
+[37.640478] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/packages/orbslam3_ros2\n'}
+[37.640827] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config.cmake\n'}
+[37.641006] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config-version.cmake\n'}
+[37.641151] (orbslam3_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.xml\n'}
+[37.649562] (orbslam3_ros2) CommandEnded: {'returncode': 0}
+[37.681271] (-) TimerEvent: {}
+[37.729135] (orbslam3_ros2) JobEnded: {'identifier': 'orbslam3_ros2', 'rc': 0}
+[37.750075] (-) EventReactorShutdown: {}

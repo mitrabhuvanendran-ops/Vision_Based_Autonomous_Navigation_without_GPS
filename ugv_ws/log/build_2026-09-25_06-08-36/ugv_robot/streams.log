@@ -1,0 +1,30 @@
+[0.769s] Invoking command in '/home/udhayan/ugv_ws/build/ugv_robot': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_robot/build --no-deps symlink_data
+[0.915s] running develop
+[0.985s] running egg_info
+[0.986s] creating ugv_robot.egg-info
+[0.986s] writing ugv_robot.egg-info/PKG-INFO
+[0.986s] writing dependency_links to ugv_robot.egg-info/dependency_links.txt
+[0.986s] writing entry points to ugv_robot.egg-info/entry_points.txt
+[0.986s] writing requirements to ugv_robot.egg-info/requires.txt
+[0.986s] writing top-level names to ugv_robot.egg-info/top_level.txt
+[0.986s] writing manifest file 'ugv_robot.egg-info/SOURCES.txt'
+[0.986s] reading manifest file 'ugv_robot.egg-info/SOURCES.txt'
+[0.987s] writing manifest file 'ugv_robot.egg-info/SOURCES.txt'
+[0.988s] running build_ext
+[0.989s] Creating /home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages/ugv-robot.egg-link (link to .)
+[0.990s] 
+[0.990s] Installed /home/udhayan/ugv_ws/build/ugv_robot
+[0.990s] running symlink_data
+[0.990s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index
+[0.990s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index
+[0.990s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index/packages
+[0.990s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/resource/ugv_robot -> /home/udhayan/ugv_ws/install/ugv_robot/share/ament_index/resource_index/packages
+[0.990s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/package.xml -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot
+[0.991s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/launch
+[0.991s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/launch/forest_robot.launch.py -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/launch
+[0.991s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/urdf
+[0.991s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/urdf/ugv.urdf.xacro -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/urdf
+[0.991s] creating /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config
+[0.991s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/config/ugv_view.rviz -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config
+[0.991s] symbolically linking /home/udhayan/ugv_ws/build/ugv_robot/config/gazebo_camera.yaml -> /home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/config
+[1.013s] Invoked command in '/home/udhayan/ugv_ws/build/ugv_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_robot/build --no-deps symlink_data

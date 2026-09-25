@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing ugv_sim.egg-info/PKG-INFO
+writing dependency_links to ugv_sim.egg-info/dependency_links.txt
+writing entry points to ugv_sim.egg-info/entry_points.txt
+writing requirements to ugv_sim.egg-info/requires.txt
+writing top-level names to ugv_sim.egg-info/top_level.txt
+reading manifest file 'ugv_sim.egg-info/SOURCES.txt'
+writing manifest file 'ugv_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_sim/lib/python3.10/site-packages/ugv-sim.egg-link (link to .)
+
+Installed /home/udhayan/ugv_ws/build/ugv_sim
+running symlink_data

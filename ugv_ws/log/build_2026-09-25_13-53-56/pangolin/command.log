@@ -1,0 +1,6 @@
+Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/Pangolin -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/pangolin
+Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/Pangolin -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/pangolin
+Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/pangolin -- -j12 -l12
+Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/pangolin -- -j12 -l12
+Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/pangolin
+Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/pangolin

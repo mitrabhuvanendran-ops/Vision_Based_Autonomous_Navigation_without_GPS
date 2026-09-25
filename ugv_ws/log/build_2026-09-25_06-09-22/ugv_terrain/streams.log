@@ -1,0 +1,16 @@
+[0.656s] Invoking command in '/home/udhayan/ugv_ws/build/ugv_terrain': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_terrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_terrain/build --no-deps symlink_data
+[0.809s] running develop
+[0.881s] running egg_info
+[0.881s] writing ugv_terrain.egg-info/PKG-INFO
+[0.881s] writing dependency_links to ugv_terrain.egg-info/dependency_links.txt
+[0.881s] writing entry points to ugv_terrain.egg-info/entry_points.txt
+[0.881s] writing requirements to ugv_terrain.egg-info/requires.txt
+[0.882s] writing top-level names to ugv_terrain.egg-info/top_level.txt
+[0.882s] reading manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+[0.882s] writing manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+[0.884s] running build_ext
+[0.884s] Creating /home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages/ugv-terrain.egg-link (link to .)
+[0.884s] 
+[0.885s] Installed /home/udhayan/ugv_ws/build/ugv_terrain
+[0.885s] running symlink_data
+[0.911s] Invoked command in '/home/udhayan/ugv_ws/build/ugv_terrain' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_terrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_terrain/build --no-deps symlink_data

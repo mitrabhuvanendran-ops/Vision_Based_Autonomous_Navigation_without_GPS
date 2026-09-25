@@ -1,0 +1,33 @@
+running develop
+running egg_info
+creating ugv_sim.egg-info
+writing ugv_sim.egg-info/PKG-INFO
+writing dependency_links to ugv_sim.egg-info/dependency_links.txt
+writing entry points to ugv_sim.egg-info/entry_points.txt
+writing requirements to ugv_sim.egg-info/requires.txt
+writing top-level names to ugv_sim.egg-info/top_level.txt
+writing manifest file 'ugv_sim.egg-info/SOURCES.txt'
+reading manifest file 'ugv_sim.egg-info/SOURCES.txt'
+writing manifest file 'ugv_sim.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/install/ugv_sim/lib/python3.10/site-packages/ugv-sim.egg-link (link to .)
+Installing cmd_vel_mux script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing dashboard script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing depth_colorizer script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing generate_forest_world script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing mission_goal script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing reactive_navigator script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing sensor_monitor script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+Installing sim2d_test script to /home/udhayan/install/ugv_sim/lib/ugv_sim
+
+Installed /home/udhayan/build/ugv_sim
+running symlink_data
+creating /home/udhayan/install/ugv_sim/share/ament_index
+creating /home/udhayan/install/ugv_sim/share/ament_index/resource_index
+creating /home/udhayan/install/ugv_sim/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/build/ugv_sim/resource/ugv_sim -> /home/udhayan/install/ugv_sim/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/build/ugv_sim/package.xml -> /home/udhayan/install/ugv_sim/share/ugv_sim
+creating /home/udhayan/install/ugv_sim/share/ugv_sim/launch
+symbolically linking /home/udhayan/build/ugv_sim/launch/sim.launch.py -> /home/udhayan/install/ugv_sim/share/ugv_sim/launch
+creating /home/udhayan/install/ugv_sim/share/ugv_sim/urdf
+symbolically linking /home/udhayan/build/ugv_sim/urdf/ugv.urdf -> /home/udhayan/install/ugv_sim/share/ugv_sim/urdf

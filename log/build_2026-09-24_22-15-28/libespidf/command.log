@@ -1,0 +1,1 @@
+Invoking command in '/home/udhayan/build/libespidf': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake /home/udhayan/rtos/target/riscv32imc-esp-espidf/debug/build/esp-idf-sys/644f0a680d3f7265/out -DCMAKE_INSTALL_PREFIX=/home/udhayan/install/libespidf

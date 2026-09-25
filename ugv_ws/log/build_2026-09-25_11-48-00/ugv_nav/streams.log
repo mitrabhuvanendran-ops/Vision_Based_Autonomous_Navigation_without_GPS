@@ -1,0 +1,60 @@
+[2.036s] Invoking command in '/home/udhayan/ugv_ws/build/ugv_nav': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data
+[2.381s] /home/udhayan/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[2.381s] !!
+[2.381s] 
+[2.381s]         ********************************************************************************
+[2.382s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.382s]         versions. Please use the underscore name 'script_dir' instead.
+[2.382s] 
+[2.382s]         This deprecation is overdue, please update your project and remove deprecated
+[2.382s]         calls to avoid build errors in the future.
+[2.382s] 
+[2.382s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.383s]         ********************************************************************************
+[2.383s] 
+[2.383s] !!
+[2.383s]   opt = self._enforce_underscore(opt, section)
+[2.438s] /home/udhayan/.local/lib/python3.10/site-packages/setuptools/dist.py:599: SetuptoolsDeprecationWarning: Invalid dash-separated key 'script-dir' in 'develop' (setup.cfg), please use the underscore name 'script_dir' instead.
+[2.439s] !!
+[2.439s] 
+[2.439s]         ********************************************************************************
+[2.439s]         Usage of dash-separated 'script-dir' will not be supported in future
+[2.439s]         versions. Please use the underscore name 'script_dir' instead.
+[2.439s]         (Affected: ugv_nav).
+[2.440s] 
+[2.440s]         This deprecation is overdue, please update your project and remove deprecated
+[2.440s]         calls to avoid build errors in the future.
+[2.440s] 
+[2.440s]         See https://setuptools.pypa.io/en/latest/userguide/declarative_config.html for details.
+[2.440s]         ********************************************************************************
+[2.440s] 
+[2.441s] !!
+[2.441s]   opt = self._enforce_underscore(opt, section)
+[2.578s] running develop
+[2.595s] Traceback (most recent call last):
+[2.596s]   File "/home/udhayan/ugv_ws/build/ugv_nav/setup.py", line 14, in <module>
+[2.596s]     setup(
+[2.596s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/__init__.py", line 117, in setup
+[2.596s]     return distutils.core.setup(**attrs)
+[2.597s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 186, in setup
+[2.597s]     return run_commands(dist)
+[2.597s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_distutils/core.py", line 202, in run_commands
+[2.597s]     dist.run_commands()
+[2.597s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1002, in run_commands
+[2.598s]     self.run_command(cmd)
+[2.598s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/dist.py", line 1104, in run_command
+[2.598s]     super().run_command(command)
+[2.598s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py", line 1020, in run_command
+[2.598s]     cmd_obj.ensure_finalized()
+[2.598s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_distutils/cmd.py", line 135, in ensure_finalized
+[2.599s]     self.finalize_options()
+[2.599s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/command/develop.py", line 51, in finalize_options
+[2.599s]     easy_install.finalize_options(self)
+[2.599s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py", line 251, in finalize_options
+[2.599s]     'dist_fullname': self.distribution.get_fullname(),
+[2.599s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 275, in get_fullname
+[2.600s]     return _distribution_fullname(self.get_name(), self.get_version())
+[2.600s]   File "/home/udhayan/.local/lib/python3.10/site-packages/setuptools/_core_metadata.py", line 293, in _distribution_fullname
+[2.600s]     canonicalize_version(version, strip_trailing_zero=False),
+[2.600s] TypeError: canonicalize_version() got an unexpected keyword argument 'strip_trailing_zero'
+[2.656s] Invoked command in '/home/udhayan/ugv_ws/build/ugv_nav' returned '1': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data

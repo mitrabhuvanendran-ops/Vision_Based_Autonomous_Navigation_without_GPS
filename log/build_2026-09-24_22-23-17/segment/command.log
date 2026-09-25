@@ -1,0 +1,2 @@
+Invoking command in '/home/udhayan/build/segment': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake /home/udhayan/OFFSEG-main/Segmentation/BiSeNet/tensorrt -DCMAKE_INSTALL_PREFIX=/home/udhayan/install/segment
+Invoked command in '/home/udhayan/build/segment' returned '1': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=📦[\u@ros2 \W]$ /usr/bin/cmake /home/udhayan/OFFSEG-main/Segmentation/BiSeNet/tensorrt -DCMAKE_INSTALL_PREFIX=/home/udhayan/install/segment

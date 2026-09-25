@@ -1,0 +1,10 @@
+[console_scripts]
+cmd_vel_mux = ugv_sim.cmd_vel_mux:main
+dashboard = ugv_sim.dashboard:main
+depth_colorizer = ugv_sim.depth_colorizer:main
+generate_forest_world = ugv_sim.generate_forest_world:main
+mission_goal = ugv_sim.mission_goal:main
+reactive_navigator = ugv_sim.reactive_navigator:main
+sensor_monitor = ugv_sim.sensor_monitor:main
+sim2d_test = ugv_sim.sim2d_test:main
+

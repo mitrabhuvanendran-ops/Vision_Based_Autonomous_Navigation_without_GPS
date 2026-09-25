@@ -1,0 +1,15 @@
+Starting >>> ugv_nav
+Starting >>> ugv_web
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+Finished <<< ugv_web [1.73s]
+--- stderr: ugv_nav
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+---
+Finished <<< ugv_nav [1.76s]
+
+Summary: 2 packages finished [2.07s]
+  1 package had stderr output: ugv_nav

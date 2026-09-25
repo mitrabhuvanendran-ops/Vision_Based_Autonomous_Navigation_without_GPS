@@ -1,0 +1,118 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 753,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 756,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 759,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 769,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 774,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/udhayan/ugv_ws/install/pangolin/include/pangolin",
+			"paths" : 
+			[
+				"/home/udhayan/ugv_ws/build/pangolin/src/include/pangolin/config.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/home/udhayan/ugv_ws/install/pangolin/include",
+			"paths" : 
+			[
+				"src/../include/pangolin"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/home/udhayan/ugv_ws/install/pangolin/lib",
+			"paths" : 
+			[
+				"src/libpangolin.so"
+			],
+			"targetId" : "pangolin::@145eef247bfb46b6828c",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Pangolin",
+			"paths" : 
+			[
+				"/home/udhayan/ugv_ws/build/pangolin/src/CMakeFiles/PangolinConfig.cmake",
+				"/home/udhayan/ugv_ws/build/pangolin/src/PangolinConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/Pangolin",
+			"exportName" : "PangolinTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "pangolin::@145eef247bfb46b6828c",
+					"index" : 17
+				}
+			],
+			"paths" : 
+			[
+				"src/CMakeFiles/Export/lib/cmake/Pangolin/PangolinTargets.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src",
+		"source" : "src"
+	}
+}

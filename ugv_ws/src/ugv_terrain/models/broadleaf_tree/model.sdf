@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="broadleaf_tree">
+    <static>true</static>
+    <link name="link">
+      <collision name="trunk_col">
+        <pose>0 0 1.5 0 0 0</pose>
+        <geometry><cylinder><radius>0.32</radius><length>3.0</length></cylinder></geometry>
+      </collision>
+      <visual name="trunk_vis">
+        <pose>0 0 1.5 0 0 0</pose>
+        <geometry><cylinder><radius>0.32</radius><length>3.0</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/TreeTrunk</name></script></material>
+      </visual>
+      <visual name="canopy_main">
+        <pose>0 0 4.0 0 0 0</pose>
+        <geometry><sphere><radius>2.2</radius></sphere></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/DeciduousFoliage</name></script></material>
+      </visual>
+      <visual name="canopy_offset">
+        <pose>0.6 0.4 4.5 0 0 0</pose>
+        <geometry><sphere><radius>1.6</radius></sphere></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/DeciduousFoliage</name></script></material>
+      </visual>
+    </link>
+  </model>
+</sdf>

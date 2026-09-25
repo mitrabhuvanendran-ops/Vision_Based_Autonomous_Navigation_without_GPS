@@ -1,0 +1,169 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="canyon_world">
+
+    <!-- 1. ENABLE THE OVERARCHING LABEL SYSTEM FOR THE ENTIRE WORLD -->
+    <plugin filename="gz-sim-label-system" name="gz::sim::systems::Label">
+    </plugin>
+
+    <!-- Scene Lighting & Atmosphere -->
+    <scene>
+      <ambient>0.65 0.62 0.58 1.0</ambient>
+      <background>0.72 0.82 0.94 1.0</background>
+      <shadows>true</shadows>
+      <grid>false</grid>
+    </scene>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <!-- 2. TERRAIN SURFACE (LABEL 10: Ground) -->
+    <model name="canyon_terrain">
+      <static>true</static>
+      <link name="link">
+        <collision name="col">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>120 120</size>
+            </plane>
+          </geometry>
+          <surface>
+            <friction>
+              <ode>
+                <mu>1.0</mu>
+                <mu2>1.0</mu2>
+              </ode>
+            </friction>
+          </surface>
+        </collision>
+        <visual name="vis">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>120 120</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.75 0.60 0.42 1.0</ambient>
+            <diffuse>0.75 0.60 0.42 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>10</label>
+      </plugin>
+    </model>
+
+    <!-- 3. LARGE CANYON BOULDERS (LABEL 1: Rock/Obstacle) -->
+    <model name="boulder_large_1">
+      <static>true</static>
+      <pose>8.0 4.0 1.5 0 0 0.5</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>3.5 3.0 3.0</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>3.5 3.0 3.0</size></box></geometry>
+          <material>
+            <ambient>0.55 0.35 0.25 1.0</ambient>
+            <diffuse>0.55 0.35 0.25 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>1</label>
+      </plugin>
+    </model>
+
+    <model name="boulder_large_2">
+      <static>true</static>
+      <pose>-7.0 6.0 1.2 0 0 1.2</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><box><size>2.8 2.5 2.4</size></box></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><box><size>2.8 2.5 2.4</size></box></geometry>
+          <material>
+            <ambient>0.55 0.35 0.25 1.0</ambient>
+            <diffuse>0.55 0.35 0.25 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>1</label>
+      </plugin>
+    </model>
+
+    <!-- 4. SAGUARO CACTI (LABEL 2: Cactus/Vegetation) -->
+    <model name="saguaro_cactus_1">
+      <static>true</static>
+      <pose>5.0 -4.0 1.5 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><cylinder><radius>0.25</radius><length>3.0</length></cylinder></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><cylinder><radius>0.25</radius><length>3.0</length></cylinder></geometry>
+          <material>
+            <ambient>0.18 0.40 0.20 1.0</ambient>
+            <diffuse>0.18 0.40 0.20 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>2</label>
+      </plugin>
+    </model>
+
+    <model name="saguaro_cactus_2">
+      <static>true</static>
+      <pose>-4.0 -5.0 1.25 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><cylinder><radius>0.22</radius><length>2.5</length></cylinder></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><cylinder><radius>0.22</radius><length>2.5</length></cylinder></geometry>
+          <material>
+            <ambient>0.18 0.40 0.20 1.0</ambient>
+            <diffuse>0.18 0.40 0.20 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>2</label>
+      </plugin>
+    </model>
+
+    <!-- 5. DESERT SCRUB BUSHES (LABEL 3: Low Scrub) -->
+    <model name="desert_scrub_1">
+      <static>true</static>
+      <pose>2.5 3.0 0.35 0 0 0</pose>
+      <link name="link">
+        <collision name="col">
+          <geometry><sphere><radius>0.45</radius></sphere></geometry>
+        </collision>
+        <visual name="vis">
+          <geometry><sphere><radius>0.45</radius></sphere></geometry>
+          <material>
+            <ambient>0.25 0.35 0.15 1.0</ambient>
+            <diffuse>0.25 0.35 0.15 1.0</diffuse>
+          </material>
+        </visual>
+      </link>
+
+      <plugin name="gz::sim::systems::Label" filename="gz-sim-label-system">
+        <label>3</label>
+      </plugin>
+    </model>
+
+  </world>
+</sdf>

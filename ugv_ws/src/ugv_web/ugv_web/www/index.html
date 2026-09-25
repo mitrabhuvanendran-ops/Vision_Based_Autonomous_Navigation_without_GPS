@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UGV Autonomous Navigation & Path Tracking</title>
+<script src="https://cdn.jsdelivr.net/npm/roslib@1/build/roslib.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-dark: #07090e;
+    --card-bg: rgba(15, 23, 42, 0.85);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --accent-cyan: #00f3ff;
+    --accent-green: #00ff66;
+    --accent-purple: #b5179e;
+    --accent-orange: #ff9100;
+    --text-main: #f8fafc;
+    --text-muted: #94a3b8;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+
+  header {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--card-border);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo-title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-icon {
+    width: 38px;
+    height: 38px;
+    background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple));
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.1rem;
+    color: #fff;
+    box-shadow: 0 0 18px rgba(0, 243, 255, 0.4);
+  }
+
+  h1 { font-size: 1.25rem; font-weight: 600; letter-spacing: -0.02em; }
+
+  .status-container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .nav-state-badge {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+    background: rgba(0, 243, 255, 0.1);
+    border: 1px solid var(--accent-cyan);
+    color: var(--accent-cyan);
+    text-transform: uppercase;
+  }
+
+  .status-badge {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 14px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--card-border);
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+  }
+
+  .status-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--accent-orange);
+    box-shadow: 0 0 8px var(--accent-orange);
+  }
+
+  .status-dot.connected {
+    background-color: var(--accent-green);
+    box-shadow: 0 0 10px var(--accent-green);
+  }
+
+  main {
+    flex: 1;
+    padding: 1.5rem;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 380px 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 950px) {
+    main { grid-template-columns: 1fr; }
+  }
+
+  .panel {
+    background: var(--card-bg);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--card-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  }
+
+  .panel-title {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  label {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  input[type="text"] {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    color: var(--text-main);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1rem;
+    transition: all 0.2s;
+  }
+
+  input[type="text"]:focus {
+    outline: none;
+    border-color: var(--accent-cyan);
+    box-shadow: 0 0 12px rgba(0, 243, 255, 0.25);
+  }
+
+  .btn-primary {
+    background: linear-gradient(135deg, #00f3ff, #0066ff);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.9rem 1.5rem;
+    font-weight: 700;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 15px rgba(0, 243, 255, 0.35);
+  }
+
+  .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 22px rgba(0, 243, 255, 0.55);
+  }
+
+  .quick-goals {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .btn-secondary {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--card-border);
+    color: var(--text-main);
+    padding: 10px 12px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background: rgba(0, 243, 255, 0.15);
+    border-color: var(--accent-cyan);
+  }
+
+  .telemetry-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .telemetry-card {
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 1rem;
+  }
+
+  .telemetry-val {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--accent-cyan);
+    margin-top: 4px;
+  }
+
+  .map-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    background: #05070c;
+    border-radius: 16px;
+    border: 1px solid var(--card-border);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+
+  canvas {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .map-overlay {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: rgba(7, 9, 14, 0.9);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 0.82rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .legend-color {
+    width: 14px;
+    height: 14px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-title">
+    <div class="logo-icon">UGV</div>
+    <h1>Autonomous Navigation & Path Tracking</h1>
+  </div>
+  <div class="status-container">
+    <div class="nav-state-badge" id="navStateBadge">STANDBY</div>
+    <div class="status-badge">
+      <div class="status-dot" id="statusDot"></div>
+      <span id="statusText">Connecting...</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="panel">
+    <div class="panel-title">🎯 Target Goal Control</div>
+    
+    <div class="input-group">
+      <label for="goalInput">Polar Command (Bearing°, Distance m)</label>
+      <input id="goalInput" type="text" placeholder="e.g. 20, 15" value="0, 12">
+    </div>
+
+    <button id="sendBtn" class="btn-primary">Navigate to Destination</button>
+
+    <div class="input-group">
+      <label>Quick Presets</label>
+      <div class="quick-goals">
+        <button class="btn-secondary" onclick="setGoal(0, 12)">Ahead 12m</button>
+        <button class="btn-secondary" onclick="setGoal(-45, 10)">45° Right 10m</button>
+        <button class="btn-secondary" onclick="setGoal(45, 10)">45° Left 10m</button>
+        <button class="btn-secondary" onclick="setGoal(-25, 15)">25° Right 15m</button>
+      </div>
+    </div>
+
+    <div class="panel-title" style="margin-top: 0.5rem;">📊 Navigation Telemetry</div>
+    
+    <div class="telemetry-grid">
+      <div class="telemetry-card">
+        <label>Distance Remaining</label>
+        <div class="telemetry-val" id="distReadout">-- m</div>
+      </div>
+      <div class="telemetry-card">
+        <label>Robot Position</label>
+        <div class="telemetry-val" id="poseReadout" style="font-size: 1rem;">(0.00, 0.00)</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="map-container">
+    <canvas id="mapCanvas"></canvas>
+    <div class="map-overlay">
+      <div class="legend-item">
+        <div class="legend-color" style="background: #00ff66;"></div>
+        <span>UGV Heading</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: #00f3ff; box-shadow: 0 0 6px #00f3ff;"></div>
+        <span>RRT* Path</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: #b5179e; box-shadow: 0 0 6px #b5179e;"></div>
+        <span>Destination Goal</span>
+      </div>
+      <div class="legend-item">
+        <div class="legend-color" style="background: rgba(255, 50, 50, 0.7);"></div>
+        <span>BiSeNet/LiDAR Costmap</span>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+const ros = new ROSLIB.Ros({ url: 'ws://' + window.location.hostname + ':9090' });
+
+const statusDot = document.getElementById('statusDot');
+const statusText = document.getElementById('statusText');
+const navStateBadge = document.getElementById('navStateBadge');
+
+ros.on('connection', () => {
+  statusText.textContent = 'ROS 2 Active';
+  statusDot.classList.add('connected');
+});
+
+ros.on('error', () => {
+  statusText.textContent = 'Connection Error';
+  statusDot.classList.remove('connected');
+});
+
+ros.on('close', () => {
+  statusText.textContent = 'Disconnected';
+  statusDot.classList.remove('connected');
+});
+
+const goalTopic = new ROSLIB.Topic({
+  ros: ros, name: '/dashboard/goal_polar',
+  messageType: 'std_msgs/msg/Float32MultiArray'
+});
+
+function sendGoal() {
+  const input = document.getElementById('goalInput').value;
+  const parts = input.split(',').map(n => parseFloat(n.trim()));
+  if (parts.length !== 2 || parts.some(isNaN)) {
+    alert('Format: bearing,distance (e.g. 20, 15)');
+    return;
+  }
+  goalTopic.publish(new ROSLIB.Message({ data: parts }));
+  navStateBadge.textContent = 'NAVIGATING TO GOAL';
+  navStateBadge.style.borderColor = '#00f3ff';
+  navStateBadge.style.color = '#00f3ff';
+}
+
+function setGoal(b, d) {
+  document.getElementById('goalInput').value = `${b}, ${d}`;
+  sendGoal();
+}
+
+document.getElementById('sendBtn').onclick = sendGoal;
+
+// Robot TF Pose & Orientation
+const tfClient = new ROSLIB.TFClient({
+  ros: ros, fixedFrame: 'odom', angularThres: 0.01, transThres: 0.01, rate: 15.0
+});
+
+let robotPose = { x: 0, y: 0, yaw: 0 };
+
+tfClient.subscribe('base_footprint', (tf) => {
+  const q = tf.rotation;
+  const yaw = Math.atan2(2.0 * (q.w * q.z + q.x * q.y), 1.0 - 2.0 * (q.y * q.y + q.z * q.z));
+  robotPose = { x: tf.translation.x, y: tf.translation.y, yaw: yaw };
+  document.getElementById('poseReadout').textContent = `(${robotPose.x.toFixed(1)}, ${robotPose.y.toFixed(1)})`;
+});
+
+// Goal Pose
+let goalPose = null;
+new ROSLIB.Topic({ ros: ros, name: '/goal_pose', messageType: 'geometry_msgs/msg/PoseStamped' })
+  .subscribe((msg) => {
+    goalPose = msg.pose.position;
+  });
+
+// RRT* Planned Path
+let planPoints = [];
+new ROSLIB.Topic({ ros: ros, name: '/plan', messageType: 'nav_msgs/msg/Path' })
+  .subscribe((msg) => {
+    planPoints = msg.poses.map(p => p.pose.position);
+  });
+
+// Occupancy Grid Costmap
+let costmapInfo = null;
+let costmapData = null;
+new ROSLIB.Topic({ ros: ros, name: '/costmap', messageType: 'nav_msgs/msg/OccupancyGrid' })
+  .subscribe((msg) => {
+    costmapInfo = msg.info;
+    costmapData = msg.data;
+  });
+
+const canvas = document.getElementById('mapCanvas');
+const ctx = canvas.getContext('2d');
+const SCALE = 14; // px per meter
+
+function resizeCanvas() {
+  canvas.width = canvas.parentElement.clientWidth;
+  canvas.height = canvas.parentElement.clientHeight;
+}
+window.addEventListener('resize', resizeCanvas);
+resizeCanvas();
+
+function worldToCanvas(x, y) {
+  return [canvas.width / 2 + (x - robotPose.x) * SCALE, canvas.height / 2 - (y - robotPose.y) * SCALE];
+}
+
+function drawGrid() {
+  ctx.strokeStyle = 'rgba(255, 255, 255, 0.04)';
+  ctx.lineWidth = 1;
+  const gridSize = 5 * SCALE; // 5 meter grid line
+  
+  const offsetX = (canvas.width / 2 - robotPose.x * SCALE) % gridSize;
+  const offsetY = (canvas.height / 2 + robotPose.y * SCALE) % gridSize;
+
+  for (let x = offsetX; x < canvas.width; x += gridSize) {
+    ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height); ctx.stroke();
+  }
+  for (let y = offsetY; y < canvas.height; y += gridSize) {
+    ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(canvas.width, y); ctx.stroke();
+  }
+}
+
+let pulsePhase = 0;
+
+function render() {
+  pulsePhase += 0.05;
+  ctx.fillStyle = '#05070c';
+  ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+  drawGrid();
+
+  // Render Costmap Occupancy Grid directly on map canvas
+  if (costmapInfo && costmapData) {
+    const res = costmapInfo.resolution;
+    const w = costmapInfo.width;
+    const h = costmapInfo.height;
+    const ox = costmapInfo.origin.position.x;
+    const oy = costmapInfo.origin.position.y;
+
+    for (let gy = 0; gy < h; gy += 2) {
+      for (let gx = 0; gx < w; gx += 2) {
+        const val = costmapData[gy * w + gx];
+        if (val >= 50) { // Occupied cell
+          const wx = ox + gx * res;
+          const wy = oy + gy * res;
+          const [cx, cy] = worldToCanvas(wx, wy);
+          if (cx < -10 || cx > canvas.width + 10 || cy < -10 || cy > canvas.height + 10) continue;
+          ctx.fillStyle = 'rgba(255, 50, 50, 0.4)';
+          ctx.fillRect(cx - 2, cy - 2, 4, 4);
+        }
+      }
+    }
+  }
+
+  // Render Planned RRT Path
+  if (planPoints.length > 1) {
+    ctx.strokeStyle = '#00f3ff';
+    ctx.lineWidth = 4;
+    ctx.shadowColor = 'rgba(0, 243, 255, 0.7)';
+    ctx.shadowBlur = 12;
+    ctx.beginPath();
+    planPoints.forEach((p, i) => {
+      const [cx, cy] = worldToCanvas(p.x, p.y);
+      i === 0 ? ctx.moveTo(cx, cy) : ctx.lineTo(cx, cy);
+    });
+    ctx.stroke();
+    ctx.shadowBlur = 0;
+
+    // Draw Waypoint dots
+    ctx.fillStyle = '#ffffff';
+    planPoints.forEach((p) => {
+      const [cx, cy] = worldToCanvas(p.x, p.y);
+      ctx.beginPath();
+      ctx.arc(cx, cy, 2, 0, 2 * Math.PI);
+      ctx.fill();
+    });
+  }
+
+  // Render Goal Target with glowing ring
+  if (goalPose) {
+    const [gx, gy] = worldToCanvas(goalPose.x, goalPose.y);
+    const dist = Math.hypot(goalPose.x - robotPose.x, goalPose.y - robotPose.y);
+    document.getElementById('distReadout').textContent = `${dist.toFixed(2)} m`;
+
+    if (dist < 0.5) {
+      navStateBadge.textContent = 'DESTINATION ARRIVED';
+      navStateBadge.style.borderColor = '#00ff66';
+      navStateBadge.style.color = '#00ff66';
+    }
+
+    ctx.strokeStyle = '#b5179e';
+    ctx.lineWidth = 2;
+    ctx.shadowColor = 'rgba(181, 23, 158, 0.9)';
+    ctx.shadowBlur = 15;
+    ctx.beginPath();
+    ctx.arc(gx, gy, 10 + Math.sin(pulsePhase) * 3, 0, 2 * Math.PI);
+    ctx.stroke();
+
+    ctx.fillStyle = '#b5179e';
+    ctx.beginPath();
+    ctx.arc(gx, gy, 5, 0, 2 * Math.PI);
+    ctx.fill();
+    ctx.shadowBlur = 0;
+  }
+
+  // Render UGV Position & Direction Pointer Arrow
+  const [rx, ry] = worldToCanvas(robotPose.x, robotPose.y);
+  ctx.save();
+  ctx.translate(rx, ry);
+  ctx.rotate(-robotPose.yaw); // invert Y canvas coord rotation
+
+  // Direction pointer triangle
+  ctx.fillStyle = '#00ff66';
+  ctx.shadowColor = 'rgba(0, 255, 102, 0.9)';
+  ctx.shadowBlur = 15;
+  ctx.beginPath();
+  ctx.moveTo(14, 0);
+  ctx.lineTo(-8, -8);
+  ctx.lineTo(-4, 0);
+  ctx.lineTo(-8, 8);
+  ctx.closePath();
+  ctx.fill();
+  ctx.shadowBlur = 0;
+  ctx.restore();
+
+  requestAnimationFrame(render);
+}
+render();
+</script>
+</body>
+</html>

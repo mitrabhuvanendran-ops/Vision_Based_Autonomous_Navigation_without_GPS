@@ -1,0 +1,64 @@
+running develop
+running egg_info
+creating ugv_terrain.egg-info
+writing ugv_terrain.egg-info/PKG-INFO
+writing dependency_links to ugv_terrain.egg-info/dependency_links.txt
+writing entry points to ugv_terrain.egg-info/entry_points.txt
+writing requirements to ugv_terrain.egg-info/requires.txt
+writing top-level names to ugv_terrain.egg-info/top_level.txt
+writing manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+reading manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+writing manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages/ugv-terrain.egg-link (link to .)
+
+Installed /home/udhayan/ugv_ws/build/ugv_terrain
+running symlink_data
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ament_index
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ament_index/resource_index
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/resource/ugv_terrain -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/package.xml -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/launch
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/worlds
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/worlds/forest.world -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/worlds
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/pine_tree
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/pine_tree/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/pine_tree
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/pine_tree/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/pine_tree
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/broadleaf_tree
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/broadleaf_tree/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/broadleaf_tree
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/broadleaf_tree/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/broadleaf_tree
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_boulder
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/rock_boulder/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_boulder
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/rock_boulder/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_boulder
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_cluster
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/rock_cluster/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_cluster
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/rock_cluster/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/rock_cluster
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/bush
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/bush/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/bush
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/bush/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/bush
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/fallen_log
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/fallen_log/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/fallen_log
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/fallen_log/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/fallen_log
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_large
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/canyon_boulder_large/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_large
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/canyon_boulder_large/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_large
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_med
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/canyon_boulder_med/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_med
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/canyon_boulder_med/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/canyon_boulder_med
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/saguaro_cactus
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/saguaro_cactus/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/saguaro_cactus
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/saguaro_cactus/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/saguaro_cactus
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/desert_scrub
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/desert_scrub/model.config -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/desert_scrub
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/models/desert_scrub/model.sdf -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/models/desert_scrub
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/textures/forest_heightmap.png -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/textures/terrain_dirt_grass.png -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/textures/canyon_heightmap.png -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/textures/canyon_sand_dirt.png -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/textures/red_sandstone.png -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/textures
+creating /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/scripts
+symbolically linking /home/udhayan/ugv_ws/build/ugv_terrain/materials/scripts/forest_materials.material -> /home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/materials/scripts

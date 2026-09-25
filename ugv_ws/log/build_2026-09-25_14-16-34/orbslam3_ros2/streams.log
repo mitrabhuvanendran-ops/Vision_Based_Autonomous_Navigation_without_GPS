@@ -1,0 +1,27 @@
+[0.036s] Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[0.595s] [ 33%] [32m[1mLinking CXX executable mono[0m
+[0.595s] [ 33%] [32m[1mLinking CXX executable rgbd[0m
+[4.119s] [ 66%] Built target rgbd
+[4.122s] [100%] Built target mono
+[4.149s] Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[4.179s] Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2
+[4.194s] -- Install configuration: ""
+[4.196s] -- Execute custom install script
+[4.197s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/lib/orbslam3_ros2/mono
+[4.198s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/lib/orbslam3_ros2/rgbd
+[4.198s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/package_run_dependencies/orbslam3_ros2
+[4.198s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/parent_prefix_path/orbslam3_ros2
+[4.198s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.sh
+[4.199s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/ament_prefix_path.dsv
+[4.200s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.sh
+[4.200s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/environment/path.dsv
+[4.200s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.bash
+[4.201s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.sh
+[4.201s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.zsh
+[4.201s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/local_setup.dsv
+[4.201s] -- Symlinking: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.dsv
+[4.219s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/ament_index/resource_index/packages/orbslam3_ros2
+[4.219s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config.cmake
+[4.219s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/cmake/orbslam3_ros2Config-version.cmake
+[4.219s] -- Up-to-date symlink: /home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.xml
+[4.226s] Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2

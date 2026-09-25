@@ -1,0 +1,621 @@
+[0.115s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7efd7a5a2c80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7efd7a683eb0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7efd7a683eb0>>, mixin_verb=('build',))
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/udhayan/ugv_ws'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.293s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(Pangolin) by extension 'ros'
+[0.297s] DEBUG:colcon.colcon_core.package_identification:Package 'Pangolin' with type 'ros.cmake' and name 'pangolin'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/images) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(bisenet_dataset/masks) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extensions ['ignore', 'ignore_ament_install']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'ignore'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'ignore_ament_install'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extensions ['colcon_pkg']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'colcon_pkg'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extensions ['colcon_meta']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'colcon_meta'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extensions ['ros']
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'ros'
+[0.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extensions ['cmake', 'python']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ORB_SLAM3) by extension 'python'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ORB_SLAM3' with type 'cmake' and name 'ORB_SLAM3'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam3_ros2' with type 'ros.ament_cmake' and name 'orbslam3_ros2'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_nav) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_nav' with type 'ros.ament_python' and name 'ugv_nav'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_robot) by extension 'ros'
+[0.330s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_robot' with type 'ros.ament_python' and name 'ugv_robot'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_sim) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_sim' with type 'ros.ament_python' and name 'ugv_sim'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_terrain) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_terrain' with type 'ros.ament_python' and name 'ugv_terrain'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extension 'colcon_pkg'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extensions ['colcon_meta']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extension 'colcon_meta'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ugv_web) by extension 'ros'
+[0.332s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ugv_web' with type 'ros.ament_python' and name 'ugv_web'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/images) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_dataset/labels) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.333s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_target' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_clean_first' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'cmake_force_configure' from command line to 'False'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'ament_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'ORB_SLAM3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.356s] DEBUG:colcon.colcon_core.verb:Building package 'ORB_SLAM3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ORB_SLAM3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ORB_SLAM3', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ORB_SLAM3', 'symlink_install': True, 'test_result_base': None}
+[0.356s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'orbslam3_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam3_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/orbslam3_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/orbslam3_ros2', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/orbslam3_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'pangolin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'pangolin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/pangolin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/pangolin', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/Pangolin', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_nav' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_nav' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ugv_nav', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ugv_nav', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ugv_nav', 'symlink_install': True, 'test_result_base': None}
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_target' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.357s] Level 5:colcon.colcon_core.verb:set package 'ugv_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.357s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ugv_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ugv_robot', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ugv_robot', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_terrain' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_terrain' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ugv_terrain', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ugv_terrain', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ugv_terrain', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_web' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_web' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ugv_web', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ugv_web', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ugv_web', 'symlink_install': True, 'test_result_base': None}
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_target' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_clean_first' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'cmake_force_configure' from command line to 'False'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'ament_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.358s] Level 5:colcon.colcon_core.verb:set package 'ugv_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.358s] DEBUG:colcon.colcon_core.verb:Building package 'ugv_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/udhayan/ugv_ws/build/ugv_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/udhayan/ugv_ws/install/ugv_sim', 'merge_install': False, 'path': '/home/udhayan/ugv_ws/src/ugv_sim', 'symlink_install': True, 'test_result_base': None}
+[0.358s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.359s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.360s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/udhayan/ugv_ws/src/ugv_nav' with build type 'ament_python'
+[0.360s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_nav', 'ament_prefix_path')
+[0.364s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/ament_prefix_path.ps1'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/ament_prefix_path.dsv'
+[0.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/ament_prefix_path.sh'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.370s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/udhayan/ugv_ws/src/ugv_robot' with build type 'ament_python'
+[0.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_robot', 'ament_prefix_path')
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/ament_prefix_path.ps1'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/ament_prefix_path.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/ament_prefix_path.sh'
+[0.371s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.371s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.374s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/udhayan/ugv_ws/src/ugv_terrain' with build type 'ament_python'
+[0.383s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_terrain', 'ament_prefix_path')
+[0.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/ament_prefix_path.ps1'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/ament_prefix_path.dsv'
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/ament_prefix_path.sh'
+[0.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.386s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/udhayan/ugv_ws/src/ugv_web' with build type 'ament_python'
+[0.387s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_web', 'ament_prefix_path')
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/ament_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/ament_prefix_path.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/ament_prefix_path.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.390s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/udhayan/ugv_ws/src/ORB_SLAM3'
+[0.390s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.390s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/udhayan/ugv_ws/src/orbslam3_ros2' with build type 'ament_cmake'
+[0.393s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/udhayan/ugv_ws/src/orbslam3_ros2'
+[0.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.393s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.396s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/udhayan/ugv_ws/Pangolin' with build type 'cmake'
+[0.396s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/udhayan/ugv_ws/Pangolin'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.566s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/udhayan/ugv_ws/src/ugv_nav'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.721s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/udhayan/ugv_ws/src/ugv_robot'
+[0.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.722s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.891s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/udhayan/ugv_ws/src/ugv_terrain'
+[0.891s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.891s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.063s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/udhayan/ugv_ws/src/ugv_web'
+[1.063s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.063s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ORB_SLAM3': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/src/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/ORB_SLAM3
+[1.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[1.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/Pangolin -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/pangolin
+[1.441s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/orbslam3_ros2 -- -j12 -l12
+[1.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/orbslam3_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2
+[1.474s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3_ros2)
+[1.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/orbslam3_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/orbslam3_ros2
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2' for CMake module files
+[1.481s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2' for CMake config files
+[1.482s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3_ros2', 'cmake_prefix_path')
+[1.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.ps1'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.dsv'
+[1.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.sh'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/bin'
+[1.484s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib/pkgconfig/orbslam3_ros2.pc'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib/python3.10/site-packages'
+[1.485s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/bin'
+[1.486s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.ps1'
+[1.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.dsv'
+[1.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.sh'
+[1.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.bash'
+[1.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.zsh'
+[1.491s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/orbslam3_ros2/share/colcon-core/packages/orbslam3_ros2)
+[1.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3_ros2)
+[1.492s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2' for CMake module files
+[1.493s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2' for CMake config files
+[1.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3_ros2', 'cmake_prefix_path')
+[1.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/hook/cmake_prefix_path.sh'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/bin'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib/pkgconfig/orbslam3_ros2.pc'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/lib/python3.10/site-packages'
+[1.497s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/orbslam3_ros2/bin'
+[1.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.bash'
+[1.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/orbslam3_ros2/share/orbslam3_ros2/package.zsh'
+[1.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/orbslam3_ros2/share/colcon-core/packages/orbslam3_ros2)
+[1.537s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, alias, dist_info, test, easy_install, check, sdist, bdist_wheel, build_clib, symlink_data, bdist, clean, compile_catalog, egg_info, saveopts, install_headers, build_ext, setopt, update_catalog, bdist_dumb, bdist_rpm, install_data, upload, install_lib, register, build_py, build, install_egg_info, develop, extract_messages, build_scripts, bdist_egg, init_catalog, install, rotate, install_scripts
+[1.553s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, alias, dist_info, test, easy_install, check, sdist, bdist_wheel, build_clib, symlink_data, bdist, clean, compile_catalog, egg_info, saveopts, install_headers, build_ext, setopt, update_catalog, bdist_dumb, bdist_rpm, install_data, upload, install_lib, register, build_py, build, install_egg_info, develop, extract_messages, build_scripts, bdist_egg, init_catalog, install, rotate, install_scripts
+[1.556s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, alias, dist_info, test, easy_install, check, sdist, bdist_wheel, build_clib, symlink_data, bdist, clean, compile_catalog, egg_info, saveopts, install_headers, build_ext, setopt, update_catalog, bdist_dumb, bdist_rpm, install_data, upload, install_lib, register, build_py, build, install_egg_info, develop, extract_messages, build_scripts, bdist_egg, init_catalog, install, rotate, install_scripts
+[1.557s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, alias, dist_info, test, easy_install, check, sdist, bdist_wheel, build_clib, symlink_data, bdist, clean, compile_catalog, egg_info, saveopts, install_headers, build_ext, setopt, update_catalog, bdist_dumb, bdist_rpm, install_data, upload, install_lib, register, build_py, build, install_egg_info, develop, extract_messages, build_scripts, bdist_egg, init_catalog, install, rotate, install_scripts
+[1.760s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --local-snapshots-ok, --exclude-scripts, --script-dir, --egg-path, --always-unzip, --dry-run, --no-find-links, --index-url, --no-deps, --help, --prefix, --install-dir, --verbose, --always-copy, --build-directory, --install-layout, --record, --allow-hosts, --uninstall, --multi-version, --upgrade, --version, --editable, --zip-ok, --user, --no-user-cfg, --find-links, --quiet, --force-installation-into-system-dir
+[1.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ugv_nav': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data
+[1.769s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --local-snapshots-ok, --exclude-scripts, --script-dir, --egg-path, --always-unzip, --dry-run, --no-find-links, --index-url, --no-deps, --help, --prefix, --install-dir, --verbose, --always-copy, --build-directory, --install-layout, --record, --allow-hosts, --uninstall, --multi-version, --upgrade, --version, --editable, --zip-ok, --user, --no-user-cfg, --find-links, --quiet, --force-installation-into-system-dir
+[1.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ugv_robot': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_robot/build --no-deps symlink_data
+[1.858s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --local-snapshots-ok, --exclude-scripts, --script-dir, --egg-path, --always-unzip, --dry-run, --no-find-links, --index-url, --no-deps, --help, --prefix, --install-dir, --verbose, --always-copy, --build-directory, --install-layout, --record, --allow-hosts, --uninstall, --multi-version, --upgrade, --version, --editable, --zip-ok, --user, --no-user-cfg, --find-links, --quiet, --force-installation-into-system-dir
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ugv_terrain': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_terrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_terrain/build --no-deps symlink_data
+[1.875s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --local-snapshots-ok, --exclude-scripts, --script-dir, --egg-path, --always-unzip, --dry-run, --no-find-links, --index-url, --no-deps, --help, --prefix, --install-dir, --verbose, --always-copy, --build-directory, --install-layout, --record, --allow-hosts, --uninstall, --multi-version, --upgrade, --version, --editable, --zip-ok, --user, --no-user-cfg, --find-links, --quiet, --force-installation-into-system-dir
+[1.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ugv_web': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_web/build --no-deps symlink_data
+[2.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_terrain', 'pythonpath_develop')
+[2.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_terrain/share/ugv_terrain/hook/pythonpath_develop.ps1'
+[2.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ugv_terrain' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_terrain/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_terrain/build --no-deps symlink_data
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/build/ugv_terrain/share/ugv_terrain/hook/pythonpath_develop.dsv'
+[2.172s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_terrain/share/ugv_terrain/hook/pythonpath_develop.sh'
+[2.173s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain' for CMake module files
+[2.174s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain' for CMake config files
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain/lib'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain/bin'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain/lib/pkgconfig/ugv_terrain.pc'
+[2.175s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages'
+[2.176s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_terrain', 'pythonpath')
+[2.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/pythonpath.ps1'
+[2.177s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/pythonpath.dsv'
+[2.178s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/hook/pythonpath.sh'
+[2.179s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_terrain/bin'
+[2.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_terrain)
+[2.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/package.ps1'
+[2.180s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/package.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/package.sh'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/package.bash'
+[2.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_terrain/share/ugv_terrain/package.zsh'
+[2.182s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ugv_terrain/share/colcon-core/packages/ugv_terrain)
+[2.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_nav', 'pythonpath_develop')
+[2.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.ps1'
+[2.250s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ugv_nav' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_nav/build --no-deps symlink_data
+[2.250s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.sh'
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav' for CMake module files
+[2.251s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav' for CMake config files
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav/lib'
+[2.252s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav/bin'
+[2.252s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_nav', 'path')
+[2.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/path.ps1'
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/path.dsv'
+[2.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/path.sh'
+[2.253s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav/lib/pkgconfig/ugv_nav.pc'
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages'
+[2.254s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_nav', 'pythonpath')
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonpath.ps1'
+[2.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonpath.dsv'
+[2.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonpath.sh'
+[2.256s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_nav/bin'
+[2.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_nav', 'pythonscriptspath')
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonscriptspath.ps1'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonscriptspath.dsv'
+[2.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/hook/pythonscriptspath.sh'
+[2.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_nav)
+[2.258s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/package.ps1'
+[2.259s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/package.dsv'
+[2.260s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/package.sh'
+[2.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/package.bash'
+[2.262s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_nav/share/ugv_nav/package.zsh'
+[2.262s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ugv_nav/share/colcon-core/packages/ugv_nav)
+[2.284s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_web', 'pythonpath_develop')
+[2.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_web/share/ugv_web/hook/pythonpath_develop.ps1'
+[2.285s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ugv_web' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_web/build --no-deps symlink_data
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/build/ugv_web/share/ugv_web/hook/pythonpath_develop.dsv'
+[2.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_web/share/ugv_web/hook/pythonpath_develop.sh'
+[2.287s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web' for CMake module files
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web' for CMake config files
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web/lib'
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web/bin'
+[2.288s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web/lib/pkgconfig/ugv_web.pc'
+[2.289s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages'
+[2.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_web', 'pythonpath')
+[2.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/pythonpath.ps1'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/pythonpath.dsv'
+[2.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/hook/pythonpath.sh'
+[2.291s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_web/bin'
+[2.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_web)
+[2.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/package.ps1'
+[2.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/package.dsv'
+[2.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/package.sh'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/package.bash'
+[2.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/package.zsh'
+[2.296s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ugv_web/share/colcon-core/packages/ugv_web)
+[2.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_robot', 'pythonpath_develop')
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_robot/share/ugv_robot/hook/pythonpath_develop.ps1'
+[2.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ugv_robot' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_robot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_robot/build --no-deps symlink_data
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/build/ugv_robot/share/ugv_robot/hook/pythonpath_develop.dsv'
+[2.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_robot/share/ugv_robot/hook/pythonpath_develop.sh'
+[2.317s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot' for CMake module files
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot' for CMake config files
+[2.318s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot/lib'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot/bin'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot/lib/pkgconfig/ugv_robot.pc'
+[2.319s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages'
+[2.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_robot', 'pythonpath')
+[2.319s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/pythonpath.ps1'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/pythonpath.dsv'
+[2.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/hook/pythonpath.sh'
+[2.320s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_robot/bin'
+[2.320s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_robot)
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/package.ps1'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/package.dsv'
+[2.321s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/package.sh'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/package.bash'
+[2.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_robot/share/ugv_robot/package.zsh'
+[2.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ugv_robot/share/colcon-core/packages/ugv_robot)
+[2.322s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/udhayan/ugv_ws/src/ugv_sim' with build type 'ament_python'
+[2.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sim', 'ament_prefix_path')
+[2.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/ament_prefix_path.ps1'
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/ament_prefix_path.dsv'
+[2.323s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/ament_prefix_path.sh'
+[2.324s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.324s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.546s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/udhayan/ugv_ws/src/ugv_sim'
+[2.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.547s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ORB_SLAM3' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/src/ORB_SLAM3 -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/ORB_SLAM3
+[2.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ORB_SLAM3': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/ORB_SLAM3 -- -j12 -l12
+[3.143s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: upload_docs, alias, dist_info, test, easy_install, check, sdist, bdist_wheel, build_clib, symlink_data, bdist, clean, compile_catalog, egg_info, saveopts, install_headers, build_ext, setopt, update_catalog, bdist_dumb, bdist_rpm, install_data, upload, install_lib, register, build_py, build, install_egg_info, develop, extract_messages, build_scripts, bdist_egg, init_catalog, install, rotate, install_scripts
+[3.619s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools 'develop' options: --optimize, --site-dirs, --local-snapshots-ok, --exclude-scripts, --script-dir, --egg-path, --always-unzip, --dry-run, --no-find-links, --index-url, --no-deps, --help, --prefix, --install-dir, --verbose, --always-copy, --build-directory, --install-layout, --record, --allow-hosts, --uninstall, --multi-version, --upgrade, --version, --editable, --zip-ok, --user, --no-user-cfg, --find-links, --quiet, --force-installation-into-system-dir
+[3.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/ugv_sim': AMENT_PREFIX_PATH=/home/udhayan/ugv_ws/install/ugv_web:/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/home/udhayan/ugv_ws/install/ugv_nav:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org PATH=/home/udhayan/ugv_ws/install/ugv_nav/bin:${PATH} PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_sim/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_web:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_robot:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_nav:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_sim/build --no-deps symlink_data
+[4.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/udhayan/ugv_ws/Pangolin -DCMAKE_INSTALL_PREFIX=/home/udhayan/ugv_ws/install/pangolin
+[4.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/pangolin -- -j12 -l12
+[4.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sim', 'pythonpath_develop')
+[4.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_sim/share/ugv_sim/hook/pythonpath_develop.ps1'
+[4.640s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/build/ugv_sim/share/ugv_sim/hook/pythonpath_develop.dsv'
+[4.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/build/ugv_sim/share/ugv_sim/hook/pythonpath_develop.sh'
+[4.650s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim' for CMake module files
+[4.654s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim' for CMake config files
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim/lib'
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim/bin'
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim/lib/pkgconfig/ugv_sim.pc'
+[4.655s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim/lib/python3.10/site-packages'
+[4.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('ugv_sim', 'pythonpath')
+[4.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/pythonpath.ps1'
+[4.660s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ugv_sim' returned '0': AMENT_PREFIX_PATH=/home/udhayan/ugv_ws/install/ugv_web:/home/udhayan/ugv_ws/install/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_robot:/home/udhayan/ugv_ws/install/ugv_nav:${AMENT_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.archlinux.org PATH=/home/udhayan/ugv_ws/install/ugv_nav/bin:${PATH} PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_sim/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_web:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_terrain:/home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_robot:/home/udhayan/ugv_ws/install/ugv_robot/lib/python3.10/site-packages:/home/udhayan/ugv_ws/build/ugv_nav:/home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_sim/build --no-deps symlink_data
+[4.673s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/pythonpath.dsv'
+[4.691s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/hook/pythonpath.sh'
+[4.716s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ugv_sim/bin'
+[4.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ugv_sim)
+[4.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/package.ps1'
+[4.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/package.dsv'
+[4.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/package.sh'
+[4.757s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/package.bash'
+[4.758s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ugv_sim/share/ugv_sim/package.zsh'
+[4.758s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ugv_sim/share/colcon-core/packages/ugv_sim)
+[692.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/pangolin -- -j12 -l12
+[692.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/udhayan/ugv_ws/build/pangolin': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/pangolin
+[693.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/pangolin' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/udhayan/ugv_ws/build/pangolin
+[693.016s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pkg_config_path')
+[693.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path.ps1'
+[693.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path.dsv'
+[693.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path.sh'
+[693.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pkg_config_path_multiarch')
+[693.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.ps1'
+[693.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.dsv'
+[693.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pkg_config_path_multiarch.sh'
+[693.051s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pangolin)
+[693.053s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin' for CMake module files
+[693.054s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin' for CMake config files
+[693.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'cmake_prefix_path')
+[693.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/cmake_prefix_path.ps1'
+[693.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/cmake_prefix_path.dsv'
+[693.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/cmake_prefix_path.sh'
+[693.063s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin/lib'
+[693.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'ld_library_path_lib')
+[693.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/ld_library_path_lib.ps1'
+[693.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/ld_library_path_lib.dsv'
+[693.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/ld_library_path_lib.sh'
+[693.068s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin/bin'
+[693.068s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'path')
+[693.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/path.ps1'
+[693.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/path.dsv'
+[693.071s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/path.sh'
+[693.072s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin/lib/pkgconfig/pangolin.pc'
+[693.075s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin/lib/python3.10/site-packages'
+[693.076s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/pangolin/bin'
+[693.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('pangolin', 'pythonscriptspath')
+[693.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pythonscriptspath.ps1'
+[693.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pythonscriptspath.dsv'
+[693.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/hook/pythonscriptspath.sh'
+[693.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/package.ps1'
+[693.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/package.dsv'
+[693.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/package.sh'
+[693.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/package.bash'
+[693.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/pangolin/share/pangolin/package.zsh'
+[693.094s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/pangolin/share/colcon-core/packages/pangolin)
+[1041.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/udhayan/ugv_ws/build/ORB_SLAM3' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/udhayan/ugv_ws/build/ORB_SLAM3 -- -j12 -l12
+[1041.269s] WARNING:colcon.colcon_cmake.task.cmake.build:Could not run installation step for package 'ORB_SLAM3' because it has no 'install' target
+[1041.270s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ORB_SLAM3)
+[1041.276s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3' for CMake module files
+[1041.279s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3' for CMake config files
+[1041.283s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3/bin'
+[1041.283s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3/lib/pkgconfig/ORB_SLAM3.pc'
+[1041.287s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3/lib/python3.10/site-packages'
+[1041.288s] Level 1:colcon.colcon_core.environment:checking '/home/udhayan/ugv_ws/install/ORB_SLAM3/bin'
+[1041.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ORB_SLAM3/share/ORB_SLAM3/package.ps1'
+[1041.300s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/udhayan/ugv_ws/install/ORB_SLAM3/share/ORB_SLAM3/package.dsv'
+[1041.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ORB_SLAM3/share/ORB_SLAM3/package.sh'
+[1041.308s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ORB_SLAM3/share/ORB_SLAM3/package.bash'
+[1041.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/udhayan/ugv_ws/install/ORB_SLAM3/share/ORB_SLAM3/package.zsh'
+[1041.316s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/udhayan/ugv_ws/install/ORB_SLAM3/share/colcon-core/packages/ORB_SLAM3)
+[1041.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1041.321s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1041.322s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1041.322s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1060.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1060.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1060.109s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1060.110s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1060.126s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1060.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/udhayan/ugv_ws/install/local_setup.ps1'
+[1060.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/udhayan/ugv_ws/install/_local_setup_util_ps1.py'
+[1060.141s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/udhayan/ugv_ws/install/setup.ps1'
+[1060.148s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/udhayan/ugv_ws/install/local_setup.sh'
+[1060.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/udhayan/ugv_ws/install/_local_setup_util_sh.py'
+[1060.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/udhayan/ugv_ws/install/setup.sh'
+[1060.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/udhayan/ugv_ws/install/local_setup.bash'
+[1060.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/udhayan/ugv_ws/install/setup.bash'
+[1060.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/udhayan/ugv_ws/install/local_setup.zsh'
+[1060.159s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/udhayan/ugv_ws/install/setup.zsh'

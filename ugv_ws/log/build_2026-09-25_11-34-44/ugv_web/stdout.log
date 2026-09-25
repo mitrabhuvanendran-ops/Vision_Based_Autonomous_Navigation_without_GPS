@@ -1,0 +1,25 @@
+running develop
+running egg_info
+creating ugv_web.egg-info
+writing ugv_web.egg-info/PKG-INFO
+writing dependency_links to ugv_web.egg-info/dependency_links.txt
+writing entry points to ugv_web.egg-info/entry_points.txt
+writing requirements to ugv_web.egg-info/requires.txt
+writing top-level names to ugv_web.egg-info/top_level.txt
+writing manifest file 'ugv_web.egg-info/SOURCES.txt'
+reading manifest file 'ugv_web.egg-info/SOURCES.txt'
+writing manifest file 'ugv_web.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages/ugv-web.egg-link (link to .)
+
+Installed /home/udhayan/ugv_ws/build/ugv_web
+running symlink_data
+creating /home/udhayan/ugv_ws/install/ugv_web/share/ament_index
+creating /home/udhayan/ugv_ws/install/ugv_web/share/ament_index/resource_index
+creating /home/udhayan/ugv_ws/install/ugv_web/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_web/resource/ugv_web -> /home/udhayan/ugv_ws/install/ugv_web/share/ament_index/resource_index/packages
+symbolically linking /home/udhayan/ugv_ws/build/ugv_web/package.xml -> /home/udhayan/ugv_ws/install/ugv_web/share/ugv_web
+creating /home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/launch
+symbolically linking /home/udhayan/ugv_ws/build/ugv_web/launch/dashboard.launch.py -> /home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/launch
+creating /home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/www
+symbolically linking /home/udhayan/ugv_ws/build/ugv_web/ugv_web/www/index.html -> /home/udhayan/ugv_ws/install/ugv_web/share/ugv_web/www

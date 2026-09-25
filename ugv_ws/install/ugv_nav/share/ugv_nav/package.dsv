@@ -1,0 +1,15 @@
+source;share/ugv_nav/hook/path.ps1
+source;share/ugv_nav/hook/path.dsv
+source;share/ugv_nav/hook/path.sh
+source;share/ugv_nav/hook/pythonpath.ps1
+source;share/ugv_nav/hook/pythonpath.dsv
+source;share/ugv_nav/hook/pythonpath.sh
+source;share/ugv_nav/hook/pythonscriptspath.ps1
+source;share/ugv_nav/hook/pythonscriptspath.dsv
+source;share/ugv_nav/hook/pythonscriptspath.sh
+source;share/ugv_nav/hook/ament_prefix_path.ps1
+source;share/ugv_nav/hook/ament_prefix_path.dsv
+source;share/ugv_nav/hook/ament_prefix_path.sh
+source;../../build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.ps1
+source;../../build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.dsv
+source;../../build/ugv_nav/share/ugv_nav/hook/pythonpath_develop.sh

@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing ugv_nav.egg-info/PKG-INFO
+writing dependency_links to ugv_nav.egg-info/dependency_links.txt
+writing entry points to ugv_nav.egg-info/entry_points.txt
+writing requirements to ugv_nav.egg-info/requires.txt
+writing top-level names to ugv_nav.egg-info/top_level.txt
+reading manifest file 'ugv_nav.egg-info/SOURCES.txt'
+writing manifest file 'ugv_nav.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_nav/lib/python3.10/site-packages/ugv-nav.egg-link (link to .)
+Installing bisenet_node script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+Installing costmap_builder script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+Installing goal_converter script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+Installing path_follower script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+Installing rrt_planner script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+Installing safety_gate script to /home/udhayan/ugv_ws/install/ugv_nav/lib/ugv_nav
+
+Installed /home/udhayan/ugv_ws/build/ugv_nav
+running symlink_data

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="canyon_boulder_med">
+    <static>true</static>
+    <link name="link">
+      <collision name="col"><pose>0 0 1.2 0.1 0.1 0</pose><geometry><box><size>3.2 2.8 2.4</size></box></geometry></collision>
+      <visual name="vis1"><pose>0 0 1.2 0.1 0.1 0</pose><geometry><box><size>3.2 2.8 2.4</size></box></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CanyonRock</name></script></material></visual>
+      <visual name="vis2"><pose>0 0 2.0 0 0 0.4</pose><geometry><sphere><radius>1.5</radius></sphere></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CanyonRock</name></script></material></visual>
+    </link>
+  </model>
+</sdf>

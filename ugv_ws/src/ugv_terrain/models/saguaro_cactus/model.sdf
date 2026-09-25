@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<sdf version="1.6">
+  <model name="saguaro_cactus">
+    <static>true</static>
+    <link name="link">
+      <!-- Main Stem -->
+      <collision name="stem_col"><pose>0 0 1.4 0 0 0</pose><geometry><cylinder><radius>0.18</radius><length>2.8</length></cylinder></geometry></collision>
+      <visual name="stem_vis"><pose>0 0 1.4 0 0 0</pose><geometry><cylinder><radius>0.18</radius><length>2.8</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CactusGreen</name></script></material></visual>
+      <!-- Left Arm -->
+      <visual name="arm_left_horiz"><pose>0.3 0 1.3 0 1.5708 0</pose><geometry><cylinder><radius>0.12</radius><length>0.4</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CactusGreen</name></script></material></visual>
+      <visual name="arm_left_vert"><pose>0.45 0 1.7 0 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.9</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CactusGreen</name></script></material></visual>
+      <!-- Right Arm -->
+      <visual name="arm_right_horiz"><pose>-0.3 0 1.6 0 1.5708 0</pose><geometry><cylinder><radius>0.12</radius><length>0.4</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CactusGreen</name></script></material></visual>
+      <visual name="arm_right_vert"><pose>-0.45 0 2.0 0 0 0</pose><geometry><cylinder><radius>0.12</radius><length>0.9</length></cylinder></geometry>
+        <material><script><uri>model://ugv_terrain/materials/scripts</uri><name>Nature/CactusGreen</name></script></material></visual>
+    </link>
+  </model>
+</sdf>

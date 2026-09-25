@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing ugv_terrain.egg-info/PKG-INFO
+writing dependency_links to ugv_terrain.egg-info/dependency_links.txt
+writing entry points to ugv_terrain.egg-info/entry_points.txt
+writing requirements to ugv_terrain.egg-info/requires.txt
+writing top-level names to ugv_terrain.egg-info/top_level.txt
+reading manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+writing manifest file 'ugv_terrain.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/udhayan/ugv_ws/install/ugv_terrain/lib/python3.10/site-packages/ugv-terrain.egg-link (link to .)
+
+Installed /home/udhayan/ugv_ws/build/ugv_terrain
+running symlink_data

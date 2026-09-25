@@ -1,0 +1,16 @@
+[1.493s] Invoking command in '/home/udhayan/ugv_ws/build/ugv_web': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_web/build --no-deps symlink_data
+[1.700s] running develop
+[1.849s] running egg_info
+[1.849s] writing ugv_web.egg-info/PKG-INFO
+[1.849s] writing dependency_links to ugv_web.egg-info/dependency_links.txt
+[1.850s] writing entry points to ugv_web.egg-info/entry_points.txt
+[1.850s] writing requirements to ugv_web.egg-info/requires.txt
+[1.850s] writing top-level names to ugv_web.egg-info/top_level.txt
+[1.852s] reading manifest file 'ugv_web.egg-info/SOURCES.txt'
+[1.853s] writing manifest file 'ugv_web.egg-info/SOURCES.txt'
+[1.854s] running build_ext
+[1.854s] Creating /home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages/ugv-web.egg-link (link to .)
+[1.856s] 
+[1.856s] Installed /home/udhayan/ugv_ws/build/ugv_web
+[1.856s] running symlink_data
+[1.898s] Invoked command in '/home/udhayan/ugv_ws/build/ugv_web' returned '0': DEBUGINFOD_URLS=https://debuginfod.archlinux.org PYTHONPATH=/home/udhayan/ugv_ws/build/ugv_web/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/udhayan/ugv_ws/install/ugv_web/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/udhayan/ugv_ws/build/ugv_web/build --no-deps symlink_data
