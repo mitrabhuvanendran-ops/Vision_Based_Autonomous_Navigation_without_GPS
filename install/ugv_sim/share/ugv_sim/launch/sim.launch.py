@@ -1,1 +1,0 @@
-/home/udhayan/build/ugv_sim/launch/sim.launch.py
