@@ -6,7 +6,7 @@ The ROS 2 workspace is under `ugv_ws/`, with the OFFSEG segmentation implementat
 
 ## Team
 
-- YOUR NAME ([GitHub](https://github.com/mitrabhuvanendran-ops))
+- Mitra B ([GitHub](https://github.com/mitrabhuvanendran-ops))
 - Udhayan K ([GitHub](https://github.com/Udhayan27-Dev))
 
 ## Overview
